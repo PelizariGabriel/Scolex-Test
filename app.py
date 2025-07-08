@@ -4,6 +4,8 @@ import streamlit as st
 import sys
 import csv
 from datetime import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
@@ -37,6 +39,19 @@ def salvar_resultado(nome, serie, resultado, opiniao):
         if not existe:
             writer.writerow(["data_hora", "nome", "serie_escolar", "resultado_scolex", "opiniao"])
         writer.writerow([datetime.now().isoformat(), nome, serie, resultado, opiniao])
+
+def salvar_em_google_sheets(nome, serie, resultado, opiniao):
+    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+    creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+    client = gspread.authorize(creds)
+
+    # Substitua pelo seu ID real da planilha
+    SPREADSHEET_ID = "SEU_SPREADSHEET_ID_AQUI"
+    sheet = client.open_by_key(SPREADSHEET_ID).sheet1
+
+    from datetime import datetime
+    data = [datetime.now().isoformat(), nome, serie, resultado, opiniao]
+    sheet.append_row(data)
 
 def rerun():
     sys.exit()
@@ -94,7 +109,7 @@ def main():
         if "opiniao" not in st.session_state:
             opiniao = st.text_area("✍️ Dê sua opinião sobre o teste (dificuldade, resultado, formato de aplicação, etc...)")
             if st.button("Salvar opinião e finalizar"):
-                salvar_resultado(
+                salvar_em_google_sheets(
                     nome=st.session_state.nome,
                     serie=st.session_state.serie_escolar,
                     resultado=st.session_state.resultado_final,
