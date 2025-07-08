@@ -1,0 +1,57 @@
+{
+  "titulo": "Complexidade das Relações Interpessoais no Mundo Contemporâneo",
+  "texto": "Nos dias atuais, as relações interpessoais apresentam uma complexidade inédita, resultado da interação entre mudanças culturais, avanços tecnológicos e fatores psicológicos. Apesar de estarmos mais conectados digitalmente, muitas pessoas experimentam uma sensação de solidão e dificuldade para estabelecer vínculos profundos.\n\nEu percebo que as redes sociais, por mais que facilitem o contato, também podem criar uma comunicação superficial e efêmera, que não substitui o contato humano direto. O desafio é manter a autenticidade e o comprometimento emocional em meio a essa dinâmica acelerada.\n\nAlém disso, a diversidade cultural amplia as possibilidades de interação, mas também exige maior sensibilidade e compreensão das diferenças. As habilidades sociais, como empatia e escuta ativa, tornam-se essenciais para superar conflitos e fortalecer relações.\n\nA saúde mental está diretamente ligada à qualidade das relações, e por isso é importante cultivar ambientes favoráveis ao diálogo e à troca genuína. Em minha experiência, a educação emocional e o autoconhecimento são ferramentas valiosas para melhorar as conexões interpessoais.\n\nPor fim, acredito que, para enfrentar esses desafios, é preciso repensar as formas de comunicação, valorizando a presença, o respeito e o cuidado mútuo, fortalecendo assim os laços que sustentam nossas vidas sociais.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é a principal causa da complexidade inédita nas relações interpessoais atualmente?",
+      "alternativas": [
+        "Mudanças culturais, avanços tecnológicos e fatores psicológicos.",
+        "A falta de dispositivos eletrônicos.",
+        "O isolamento social completo.",
+        "A ausência de comunicação digital."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como as redes sociais podem afetar as relações, segundo o texto?",
+      "alternativas": [
+        "Facilitam o contato e promovem comunicação profunda e duradoura.",
+        "Criam uma comunicação superficial e efêmera, que não substitui o contato humano direto.",
+        "Eliminam a necessidade de comunicação humana.",
+        "São irrelevantes para as relações interpessoais."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais habilidades sociais são destacadas como essenciais para fortalecer relações?",
+      "alternativas": [
+        "Empatia e escuta ativa.",
+        "Competição e isolamento.",
+        "Indiferença e julgamento.",
+        "Rapidez e multitarefa."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que a saúde mental está ligada à qualidade das relações interpessoais?",
+      "alternativas": [
+        "Porque ambientes favoráveis ao diálogo e à troca genuína promovem bem-estar.",
+        "Porque a saúde mental não depende das relações.",
+        "Porque o isolamento é sempre benéfico.",
+        "Porque comunicação digital substitui o contato direto."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual é a sugestão final do texto para enfrentar os desafios nas relações interpessoais?",
+      "alternativas": [
+        "Repensar as formas de comunicação, valorizando presença, respeito e cuidado mútuo.",
+        "Evitar todas as formas de comunicação.",
+        "Priorizar apenas a comunicação digital.",
+        "Ignorar as diferenças culturais."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 22.94187499630632
+}

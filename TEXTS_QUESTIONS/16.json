@@ -1,0 +1,57 @@
+{
+  "titulo": "Globalização e Desafios Contemporâneos",
+  "texto": "No contexto atual, a globalização promove intercâmbios culturais, econômicos e tecnológicos que desafiam nossa capacidade de adaptação. Vejo que, enquanto as fronteiras físicas se tornam menos relevantes, surgem novas questões relacionadas à identidade, pertencimento e sustentabilidade.\n\nA complexidade das relações globais exige uma compreensão mais profunda dos fatores históricos e sociais que moldam o presente. Eu frequentemente reflito sobre o papel que cada indivíduo desempenha nesse cenário, seja através do consumo consciente, do engajamento político ou da educação contínua.\n\nAlém disso, a crescente interdependência econômica impõe desafios para a justiça social e a preservação ambiental. Por isso, acredito que é fundamental cultivar valores que promovam a solidariedade e o respeito às diferenças, visando um futuro mais equilibrado e justo.",
+  "perguntas": [
+    {
+      "pergunta": "O que a globalização promove, segundo o texto?",
+      "alternativas": [
+        "Somente intercâmbios econômicos.",
+        "Intercâmbios culturais, econômicos e tecnológicos.",
+        "Aumento das fronteiras físicas.",
+        "Isolamento entre países."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais questões surgem com a globalização conforme mencionado no texto?",
+      "alternativas": [
+        "Identidade, pertencimento e sustentabilidade.",
+        "Aumento do nacionalismo extremo.",
+        "Desinteresse pela cultura local.",
+        "Redução das responsabilidades sociais."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual papel o autor atribui ao indivíduo no cenário global atual?",
+      "alternativas": [
+        "Consumir sem refletir.",
+        "Engajar-se politicamente, praticar consumo consciente e buscar educação contínua.",
+        "Isolar-se de questões sociais.",
+        "Concentrar-se apenas na economia pessoal."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais desafios a interdependência econômica traz, segundo o texto?",
+      "alternativas": [
+        "Justiça social e preservação ambiental.",
+        "Expansão dos mercados financeiros sem restrições.",
+        "Crescimento econômico ilimitado.",
+        "Redução do diálogo internacional."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual valor é fundamental cultivar para um futuro equilibrado e justo?",
+      "alternativas": [
+        "Competitividade e individualismo.",
+        "Solidariedade e respeito às diferenças.",
+        "Indiferença cultural.",
+        "Conflito e exclusão."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 46.88497900116009
+}

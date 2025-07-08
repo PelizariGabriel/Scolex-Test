@@ -1,0 +1,57 @@
+{
+  "titulo": "O Papel da Educação na Construção da Cidadania",
+  "texto": "A educação exerce um papel fundamental na formação dos cidadãos e no fortalecimento da democracia. Eu acredito que não basta apenas transmitir conteúdos acadêmicos; é preciso desenvolver habilidades críticas e reflexivas para que os indivíduos compreendam seus direitos e deveres.\n\nUm sistema educacional de qualidade deve ser inclusivo, valorizando as diferenças culturais, sociais e individuais dos estudantes. As práticas pedagógicas precisam estimular o diálogo, a empatia e o respeito, preparando os jovens para participar ativamente da vida social e política.\n\nAlém disso, a educação para a cidadania envolve o reconhecimento da diversidade e o combate a preconceitos e discriminações. Ela deve formar pessoas conscientes de seu papel na sociedade e capazes de contribuir para a construção de um mundo mais justo e solidário.\n\nEu vejo que, para isso, é fundamental investir na formação continuada dos professores, que são os mediadores desse processo. Eles precisam estar preparados para enfrentar os desafios contemporâneos e para promover ambientes de aprendizagem estimulantes.\n\nPor fim, acredito que a participação da família e da comunidade complementa a ação da escola, criando redes de apoio que fortalecem a educação e a cidadania. Somente assim será possível formar cidadãos críticos, responsáveis e comprometidos com o bem comum.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o papel fundamental da educação segundo o texto?",
+      "alternativas": [
+        "Transmitir apenas conteúdos acadêmicos.",
+        "Formar cidadãos críticos e fortalecer a democracia.",
+        "Focar somente em habilidades técnicas.",
+        "Garantir resultados acadêmicos sem reflexão."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como deve ser um sistema educacional de qualidade?",
+      "alternativas": [
+        "Excludente e rígido.",
+        "Inclusivo, valorizando diferenças culturais, sociais e individuais.",
+        "Baseado apenas em avaliações padronizadas.",
+        "Ignorando as diferenças entre estudantes."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que a educação para a cidadania deve envolver?",
+      "alternativas": [
+        "Reconhecimento da diversidade e combate a preconceitos e discriminações.",
+        "Manutenção do status quo social.",
+        "Desconsideração das diferenças sociais.",
+        "Foco exclusivo em conteúdos acadêmicos."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual é a importância da formação continuada dos professores?",
+      "alternativas": [
+        "Eles precisam estar preparados para enfrentar desafios e promover ambientes estimulantes.",
+        "Não tem impacto no processo educativo.",
+        "Deve focar apenas em conteúdos técnicos.",
+        "É responsabilidade exclusiva das famílias."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como a participação da família e da comunidade contribui para a educação?",
+      "alternativas": [
+        "Complementa a ação da escola, criando redes de apoio para fortalecer educação e cidadania.",
+        "Substitui o papel dos professores.",
+        "Dificulta a aprendizagem dos estudantes.",
+        "Não é relevante para o processo educacional."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 61.36053434535525
+}

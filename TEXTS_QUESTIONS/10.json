@@ -1,0 +1,57 @@
+{
+  "titulo": "Como plantar tomates em casa",
+  "texto": "Plantar tomates em casa é uma atividade gratificante que pode transformar espaços pequenos em verdadeiros jardins produtivos. Para começar, escolha um vaso com boa drenagem e um solo fértil, rico em matéria orgânica.\n\nPlante as sementes ou mudas em um local que receba bastante luz solar direta, pelo menos seis horas por dia. Regue regularmente, mantendo o solo úmido, mas evitando encharcamentos que podem apodrecer as raízes.\n\nAo longo do crescimento, é importante monitorar pragas e doenças, utilizando métodos naturais sempre que possível. Amarre os galhos para sustentação e retire folhas secas para estimular a circulação de ar.\n\nAlém dos benefícios práticos, cuidar dos tomates pode ser um momento de introspecção e conexão com a natureza, proporcionando bem-estar e aprendizado constante.\n\nEm poucos meses, será possível colher frutos frescos e saborosos, resultado do cuidado e paciência dedicados à planta.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o primeiro passo recomendado para plantar tomates em casa?",
+      "alternativas": [
+        "Escolher um vaso com boa drenagem e solo fértil rico em matéria orgânica.",
+        "Comprar tomates no supermercado.",
+        "Plantar as sementes diretamente no chão sem preparo.",
+        "Regar as plantas apenas uma vez por mês."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quanto tempo de luz solar direta o local de plantio deve receber, segundo o texto?",
+      "alternativas": [
+        "Pelo menos duas horas por dia.",
+        "Entre quatro e cinco horas diárias.",
+        "Pelo menos seis horas por dia.",
+        "Não é necessário luz solar direta."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual cuidado é importante para evitar problemas nas raízes das plantas?",
+      "alternativas": [
+        "Evitar regar as plantas para que o solo fique seco.",
+        "Manter o solo úmido, mas evitando encharcamento.",
+        "Cobrir o vaso com plástico o tempo todo.",
+        "Deixar as plantas expostas à chuva constante."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como o texto sugere lidar com pragas e doenças?",
+      "alternativas": [
+        "Usar métodos naturais sempre que possível.",
+        "Aplicar pesticidas químicos diariamente.",
+        "Ignorar o problema e esperar que passe sozinho.",
+        "Remover todas as plantas ao menor sinal de praga."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Além dos benefícios práticos, quais outros benefícios cuidar dos tomates pode proporcionar?",
+      "alternativas": [
+        "Uma sensação de frustração por não colher frutos.",
+        "Momento de introspecção, conexão com a natureza e bem-estar.",
+        "Oportunidade para aprender técnicas de culinária.",
+        "Somente um passatempo sem benefícios emocionais."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 75.72341892793106
+}

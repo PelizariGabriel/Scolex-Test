@@ -1,0 +1,57 @@
+{
+  "titulo": "Minha experiência em uma viagem de bicicleta",
+  "texto": "Na última primavera, decidi fazer uma viagem de bicicleta pela região serrana perto da minha cidade. Era a primeira vez que me aventurava em um trajeto tão longo, e confesso que estava bastante animado e um pouco nervoso.\n\nO percurso tinha cerca de 80 quilômetros, com subidas desafiadoras e paisagens incríveis. Durante o trajeto, pude sentir o vento no rosto, o cheiro das árvores e a tranquilidade dos pequenos vilarejos que visitei. A cada pedalada, meu corpo trabalhava duro, mas a sensação de liberdade e contato com a natureza compensava todo o esforço.\n\nTive que aprender a administrar minha energia, fazendo paradas estratégicas para hidratação e descanso. Também aproveitei para conversar com moradores locais, que sempre recebiam os ciclistas com simpatia e dicas sobre o caminho.\n\nA experiência me ensinou muito sobre resistência física e mental, além de me conectar com a simplicidade e beleza do ambiente ao redor. A bicicleta se tornou não apenas um meio de transporte, mas uma companheira que me proporcionou momentos de reflexão e autoconhecimento.\n\nAo final do dia, cansado mas realizado, percebi que essa viagem foi mais do que um passeio foi uma oportunidade de desafiar meus limites, apreciar o presente e valorizar o simples ato de pedalar.\n",
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o principal objetivo do autor ao fazer a viagem de bicicleta?",
+      "alternativas": [
+        "Competir em uma prova esportiva.",
+        "Testar um novo modelo de bicicleta.",
+        "Aventurar-se em um trajeto desafiador e buscar uma experiência pessoal.",
+        "Visitar familiares que moram em vilarejos distantes."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual sentimento o autor expressa ao descrever a viagem?",
+      "alternativas": [
+        "Tédio com o trajeto repetitivo.",
+        "Raiva por enfrentar muitas dificuldades.",
+        "Frustração por não concluir a viagem.",
+        "Satisfação e realização pessoal com a experiência."
+      ],
+      "resposta_correta": 3
+    },
+    {
+      "pergunta": "O que o autor aprendeu durante o percurso?",
+      "alternativas": [
+        "Que não vale a pena fazer viagens longas de bicicleta.",
+        "Que a resistência física e mental pode ser desenvolvida com esforço.",
+        "Que os moradores locais são sempre mal-humorados.",
+        "Que é melhor viajar de carro do que de bicicleta."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que significa a frase: 'A bicicleta se tornou não apenas um meio de transporte, mas uma companheira'?",
+      "alternativas": [
+        "Que o autor deixou de pedalar e passou a empurrar a bicicleta.",
+        "Que a bicicleta quebrou e precisou ser trocada.",
+        "Que o autor passou a valorizar a bicicleta por tudo que viveu com ela.",
+        "Que ele comprou outra bicicleta durante a viagem."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "De acordo com o texto, como os moradores locais tratavam os ciclistas?",
+      "alternativas": [
+        "Ignoravam totalmente os viajantes.",
+        "Ofereciam hospedagem gratuita.",
+        "Recebiam com simpatia e davam dicas sobre o caminho.",
+        "Pediam ajuda para carregar mercadorias."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 60.620756615633134
+}

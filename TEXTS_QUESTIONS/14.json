@@ -1,0 +1,57 @@
+{
+  "titulo": "Reflexões Sobre Linguagem e Compreensão",
+  "texto": "Em minha experiência com leitura e estudo, percebo como a linguagem influencia nossa compreensão do mundo. Palavras concretas facilitam a visualização de ideias, enquanto termos abstratos exigem um esforço maior de interpretação. Por exemplo, quando leio textos científicos, encontro conceitos como “energia” e “matéria”, que são essenciais, mas menos palpáveis do que objetos físicos.\n\nA diversidade lexical enriquece o texto, tornando-o mais envolvente e complexo. No entanto, é importante manter o equilíbrio para que a mensagem não se torne confusa. O uso moderado de pronomes pessoais ajuda a aproximar o leitor, criando uma conexão mais direta.\n\nAssim, um texto pode variar em complexidade conforme o público-alvo e o objetivo. Como leitor, busco sempre adaptar minha atenção para compreender diferentes estilos e níveis de dificuldade, o que torna a leitura um desafio estimulante.",
+  "perguntas": [
+    {
+      "pergunta": "Segundo o texto, como as palavras concretas influenciam a compreensão?",
+      "alternativas": [
+        "Dificultam a visualização de ideias.",
+        "Facilitam a visualização de ideias.",
+        "Não influenciam a compreensão.",
+        "São menos importantes que os termos abstratos."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais são exemplos de termos abstratos mencionados no texto?",
+      "alternativas": [
+        "Árvore e casa.",
+        "Energia e matéria.",
+        "Cachorro e bola.",
+        "Mesa e cadeira."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que é importante manter equilíbrio na diversidade lexical?",
+      "alternativas": [
+        "Para tornar o texto mais confuso.",
+        "Para que a mensagem não se torne confusa.",
+        "Para eliminar pronomes pessoais completamente.",
+        "Para deixar o texto mais longo."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como o uso moderado de pronomes pessoais ajuda o texto?",
+      "alternativas": [
+        "Aproxima o leitor e cria uma conexão direta.",
+        "Afasta o leitor do conteúdo.",
+        "Complica a compreensão do texto.",
+        "Torna o texto impessoal."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que torna a leitura um desafio estimulante, segundo o autor?",
+      "alternativas": [
+        "Ler apenas textos simples e curtos.",
+        "Adaptar a atenção para compreender diferentes estilos e níveis de dificuldade.",
+        "Evitar textos científicos.",
+        "Focar apenas em textos com muitas imagens."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 64.07757765045471
+}

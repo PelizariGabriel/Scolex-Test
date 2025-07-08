@@ -1,0 +1,57 @@
+{
+  "titulo": "Instruções para montar uma estante",
+  "texto": "Montar uma estante pode parecer uma tarefa simples, mas requer atenção e organização para garantir segurança e durabilidade. Para começar, reúna as ferramentas necessárias uma chave de fenda, martelo, nível e parafusos compatíveis com o material.\n\nAntes de iniciar, verifique se todas as peças estão presentes e leia as instruções fornecidas pelo fabricante. Escolha um local adequado para a montagem, com espaço suficiente para trabalhar.\n\nComece fixando as laterais, certificando-se de que estejam alinhadas verticalmente. Em seguida, coloque as prateleiras, utilizando o nível para garantir que fiquem retas. Aperte os parafusos com cuidado, evitando forçar excessivamente e danificar a madeira.\n\nApós a montagem, teste a estabilidade da estante e faça ajustes se necessário. É recomendável fixar a estante na parede para evitar tombamentos, especialmente em ambientes com crianças.\n\nSeguindo esses passos, você terá uma estante funcional e segura, pronta para organizar seus livros e objetos.\n\n",
+  "perguntas": [
+    {
+      "pergunta": "Qual é a principal finalidade do texto?",
+      "alternativas": [
+        "Explicar como desmontar móveis antigos.",
+        "Descrever a história da fabricação de estantes.",
+        "Ensinar o passo a passo para montar uma estante com segurança.",
+        "Vender ferramentas e acessórios para montagem de móveis."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Quais são algumas das ferramentas recomendadas para montar a estante?",
+      "alternativas": [
+        "Chave de fenda, martelo, nível e parafusos compatíveis.",
+        "Alicate, broca, cola e trena.",
+        "Tesoura, fita adesiva, chave inglesa e serrote.",
+        "Lima, furadeira industrial e tinta."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que é importante utilizar o nível durante a montagem?",
+      "alternativas": [
+        "Para medir o peso da estante.",
+        "Para garantir que as prateleiras fiquem retas.",
+        "Para marcar o número de peças utilizadas.",
+        "Para testar a resistência dos parafusos."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o texto recomenda após a montagem da estante?",
+      "alternativas": [
+        "Pintar a estante com verniz.",
+        "Guardar todas as ferramentas dentro da estante.",
+        "Fixar a estante na parede para maior segurança.",
+        "Desmontar a estante e verificar possíveis danos."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Segundo o texto, qual é um cuidado importante ao apertar os parafusos?",
+      "alternativas": [
+        "Apertá-los o máximo possível para evitar folgas.",
+        "Lubrificá-los antes de usar.",
+        "Evitar forçar demais para não danificar a madeira.",
+        "Usar apenas cola para fixar, sem os parafusos."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 57.62927273048909
+}

@@ -1,0 +1,57 @@
+{
+  "titulo": "O Impacto da Tecnologia nas Relações Humanas",
+  "texto": "Quando penso no impacto da tecnologia em nossas vidas, percebo que as transformações vão além do aspecto material. As mudanças influenciam comportamentos, relações sociais e até a forma como interpretamos a realidade. Por exemplo, as redes sociais criaram ambientes virtuais que promovem conexões rápidas, mas também desafios em termos de privacidade e autenticidade.\n\nEu mesmo já experimentei momentos em que a presença digital pareceu mais intensa que a vida física, e isso me levou a refletir sobre a necessidade do equilíbrio. A tecnologia é uma ferramenta poderosa, mas deve ser usada com consciência para evitar efeitos negativos.\n\nPor isso, acredito que o desenvolvimento tecnológico deve andar junto com o crescimento ético e cultural da sociedade, para que possamos usufruir dos benefícios sem perder a humanidade.",
+  "perguntas": [
+    {
+      "pergunta": "Além do aspecto material, que outros impactos a tecnologia provoca, segundo o texto?",
+      "alternativas": [
+        "Apenas melhorias econômicas.",
+        "Mudanças em comportamentos, relações sociais e interpretação da realidade.",
+        "Somente avanços científicos.",
+        "Redução da interação social."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais desafios são mencionados em relação às redes sociais?",
+      "alternativas": [
+        "Falta de conexão entre pessoas.",
+        "Privacidade e autenticidade.",
+        "Baixa velocidade da internet.",
+        "Excesso de interação pessoal."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o autor reflete sobre sua própria experiência com a presença digital?",
+      "alternativas": [
+        "Que a vida física sempre é mais importante que a digital.",
+        "Que a presença digital às vezes parece mais intensa que a vida física, indicando a necessidade de equilíbrio.",
+        "Que a presença digital deve substituir a vida física.",
+        "Que as redes sociais não influenciam sua vida."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual é a visão do autor sobre o uso da tecnologia?",
+      "alternativas": [
+        "Deve ser usada sem limites para aproveitar ao máximo.",
+        "Deve ser evitada para preservar tradições.",
+        "É uma ferramenta poderosa que deve ser usada com consciência para evitar efeitos negativos.",
+        "Deve ser controlada exclusivamente pelo governo."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "O que o autor acredita ser necessário para o desenvolvimento tecnológico ideal?",
+      "alternativas": [
+        "Crescimento ético e cultural da sociedade junto com o desenvolvimento tecnológico.",
+        "Focar somente no avanço tecnológico sem considerar aspectos sociais.",
+        "Reduzir o uso da tecnologia para preservar a humanidade.",
+        "Isolar a tecnologia do comportamento humano."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 34.46198123373014
+}

@@ -1,0 +1,57 @@
+{
+  "titulo": "Um Dia Simples na Casa Azul",
+  "texto": "A casa é azul. O sol está brilhando no céu. O gato está no quintal. Ele está dormindo na sombra de uma árvore. A árvore tem folhas verdes. A grama está molhada pela manhã. A menina está brincando com a bola. Ela ri muito. O cachorro corre atrás da bola. Eles são amigos. A bola é vermelha e redonda. O menino está olhando o cachorro. Eles gostam de brincar juntos todos os dias. A casa tem uma porta branca e janelas grandes. Dentro da casa, tem uma mesa com frutas. As frutas são maçãs e bananas. A maçã é vermelha. A banana é amarela. O sol aquece a casa durante o dia. À noite, a lua aparece no céu. A casa fica tranquila. O gato continua dormindo. O menino e a menina estão cansados e vão dormir. Eles sonham com o parque onde brincam. Amanhã será outro dia de brincadeiras e sol. Tudo é simples e feliz.",
+  "perguntas": [
+    {
+      "pergunta": "Qual a cor da casa descrita no texto?",
+      "alternativas": [
+        "Vermelha",
+        "Azul",
+        "Branca",
+        "Amarela"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o gato está fazendo no quintal?",
+      "alternativas": [
+        "Brincando com a bola",
+        "Correndo atrás do cachorro",
+        "Dormindo na sombra da árvore",
+        "Comendo frutas"
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Quais frutas estão na mesa dentro da casa?",
+      "alternativas": [
+        "Maçãs e bananas",
+        "Laranjas e uvas",
+        "Bananas e morangos",
+        "Maçãs e peras"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como é a bola com que as crianças brincam?",
+      "alternativas": [
+        "Vermelha e redonda",
+        "Azul e quadrada",
+        "Verde e oval",
+        "Amarela e pequena"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que acontece com o sol e a lua no texto?",
+      "alternativas": [
+        "O sol aparece à noite e a lua durante o dia.",
+        "O sol aquece a casa durante o dia e a lua aparece à noite.",
+        "O sol e a lua aparecem juntos o tempo todo.",
+        "A lua brilha durante o dia e o sol durante a noite."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 1.6834492140588773
+}

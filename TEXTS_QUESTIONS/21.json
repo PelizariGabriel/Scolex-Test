@@ -1,0 +1,57 @@
+{
+  "titulo": "Desafios Éticos na Era Digital",
+  "texto": "Vivemos em uma era em que o avanço tecnológico transforma rapidamente as nossas vidas, criando novas possibilidades e, ao mesmo tempo, desafios. Um dos maiores dilemas atuais é o uso e proteção dos dados pessoais. A coleta massiva de informações gera preocupações sobre privacidade e segurança. Eu observo que, apesar de existirem leis para proteger os usuários, muitas vezes essas normas ficam defasadas diante da velocidade das inovações.\n\nAlém disso, as empresas utilizam esses dados para fins comerciais, às vezes sem o consentimento claro dos indivíduos. A transparência nas práticas e a responsabilidade ética devem ser prioridades para equilibrar inovação com respeito aos direitos humanos.\n\nComo sociedade, precisamos refletir sobre os valores que queremos preservar em um mundo digital. É fundamental garantir que a tecnologia esteja a serviço do bem comum, respeitando a autonomia e a dignidade das pessoas.\n\nAssim, debates sobre ética digital não devem se limitar aos especialistas, mas envolver toda a população. A educação digital também é essencial para que todos compreendam os riscos e direitos relacionados ao uso das tecnologias.\n\nFinalmente, acredito que o futuro da ética digital depende da construção coletiva de normas e práticas que sejam justas, inclusivas e transparentes. Esse processo exige diálogo constante entre governos, empresas, academia e sociedade civil, garantindo que o desenvolvimento tecnológico seja um instrumento de progresso social e não uma ameaça à liberdade individual.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é um dos maiores dilemas atuais relacionados ao avanço tecnológico?",
+      "alternativas": [
+        "A escassez de tecnologia.",
+        "O uso e proteção dos dados pessoais.",
+        "A falta de dispositivos eletrônicos.",
+        "A obsolescência dos computadores."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que as leis de proteção de dados podem ser insuficientes?",
+      "alternativas": [
+        "Porque são muito rígidas e limitam a inovação.",
+        "Porque ficam defasadas diante da velocidade das inovações.",
+        "Porque são aplicadas apenas em alguns países.",
+        "Porque não existem leis para proteger dados pessoais."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que as empresas fazem com os dados pessoais, segundo o texto?",
+      "alternativas": [
+        "Utilizam os dados para fins comerciais, às vezes sem consentimento claro dos indivíduos.",
+        "Protegem todos os dados com máxima segurança.",
+        "Não coletam dados pessoais.",
+        "Compartilham os dados apenas com o governo."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que a educação digital é importante, conforme o texto?",
+      "alternativas": [
+        "Para que todos compreendam os riscos e direitos relacionados ao uso das tecnologias.",
+        "Para aumentar o consumo de tecnologia.",
+        "Para ensinar a usar redes sociais apenas.",
+        "Para impedir o acesso à internet."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual é o papel do diálogo entre diferentes setores na ética digital?",
+      "alternativas": [
+        "Construir normas e práticas justas, inclusivas e transparentes para garantir progresso social e proteger a liberdade individual.",
+        "Isolar a tecnologia das decisões sociais.",
+        "Impor regras sem participação popular.",
+        "Priorizar interesses comerciais sobre direitos humanos."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 40.34592020345143
+}

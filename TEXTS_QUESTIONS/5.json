@@ -1,0 +1,57 @@
+{
+  "titulo": "O papel da filosofia na sociedade",
+  "texto": "A filosofia desempenha um papel fundamental na construção do pensamento crítico e na formação da consciência social. Ao questionar as bases do conhecimento, da ética e da existência, ela promove uma reflexão profunda sobre os valores que orientam as ações humanas.\n\nHistoricamente, a filosofia tem sido o alicerce para o desenvolvimento de diversas áreas do saber, influenciando a ciência, a política e a cultura. Ela estimula o debate racional e o respeito pela diversidade de ideias, essenciais para a convivência democrática.\n\nNa sociedade contemporânea, a filosofia nos convida a repensar conceitos como justiça, liberdade e verdade diante dos desafios éticos e tecnológicos. Através do diálogo e da análise, ela ajuda a identificar contradições e a buscar soluções que promovam o bem comum.\n\nPortanto, o papel da filosofia vai além do campo acadêmico ela é um instrumento para o autoconhecimento e a transformação social, capaz de inspirar ações conscientes e responsáveis.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o papel central da filosofia, segundo o texto?",
+      "alternativas": [
+        "Ensinar fórmulas matemáticas aplicadas.",
+        "Fortalecer crenças religiosas tradicionais.",
+        "Construir pensamento crítico e consciência social.",
+        "Oferecer respostas definitivas para dilemas científicos."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "De que forma a filosofia influencia outras áreas do saber?",
+      "alternativas": [
+        "Afastando-se da ciência e da cultura.",
+        "Servindo como base para o desenvolvimento da ciência, política e cultura.",
+        "Limitando o debate racional entre especialistas.",
+        "Focando apenas em questões espirituais."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como a filosofia contribui para a convivência democrática, segundo o texto?",
+      "alternativas": [
+        "Ignorando opiniões divergentes para manter a ordem.",
+        "Estimulando o debate racional e o respeito à diversidade de ideias.",
+        "Impondo uma única visão de mundo baseada na ética tradicional.",
+        "Promovendo a competição de ideias sem necessidade de diálogo."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que a filosofia continua relevante na sociedade contemporânea?",
+      "alternativas": [
+        "Porque oferece soluções técnicas para problemas ambientais.",
+        "Porque evita que novas tecnologias se desenvolvam sem limites.",
+        "Porque estimula o diálogo sobre justiça, liberdade e verdade diante de desafios atuais.",
+        "Porque substitui a ciência na busca por respostas objetivas."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "De acordo com o texto, o papel da filosofia vai além do campo acadêmico porque:",
+      "alternativas": [
+        "Ela resolve todos os conflitos políticos.",
+        "Ela transforma a religião em um conhecimento racional.",
+        "Ela é um instrumento de autoconhecimento e transformação social.",
+        "Ela se limita à formação de professores universitários."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 64.65405830455063
+}

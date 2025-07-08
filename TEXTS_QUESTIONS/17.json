@@ -1,0 +1,57 @@
+{
+  "titulo": "Paradigmas da Comunicação na Era da Informação",
+  "texto": "Ao analisar os paradigmas contemporâneos da comunicação, percebo que o fluxo constante de informações redefine a maneira como construímos conhecimento e significado. Eu observo que, apesar da facilidade de acesso, o excesso de dados pode levar à superficialidade e à perda da profundidade crítica.\n\nEsse fenômeno demanda um esforço maior para selecionar, interpretar e contextualizar as informações, o que reforça a importância da educação midiática e da reflexão crítica. A linguagem desempenha um papel central nesse processo, pois é por meio dela que expressamos e moldamos nossa visão de mundo.\n\nSinto que, ao desenvolver essas competências, fortalecemos nossa autonomia intelectual e a capacidade de participar ativamente dos debates sociais, culturais e científicos.",
+  "perguntas": [
+    {
+      "pergunta": "O que o fluxo constante de informações faz, segundo o texto?",
+      "alternativas": [
+        "Redefine a maneira como construímos conhecimento e significado.",
+        "Facilita a profundidade crítica sem esforço.",
+        "Reduz o acesso à informação.",
+        "Elimina a necessidade de reflexão."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual problema pode resultar do excesso de dados?",
+      "alternativas": [
+        "Superficialidade e perda da profundidade crítica.",
+        "Aumento da reflexão profunda.",
+        "Melhoria na compreensão das informações.",
+        "Maior facilidade para selecionar dados."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que é importante para lidar com o excesso de informações?",
+      "alternativas": [
+        "Um esforço maior para selecionar, interpretar e contextualizar as informações.",
+        "Ignorar a maioria dos dados recebidos.",
+        "Acessar a informação sem filtro.",
+        "Evitar a educação midiática."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual o papel da linguagem no processo descrito no texto?",
+      "alternativas": [
+        "Expressar e moldar nossa visão de mundo.",
+        "Complicar a compreensão da informação.",
+        "Substituir a reflexão crítica.",
+        "Desconsiderar o conhecimento científico."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais competências fortalecem nossa autonomia intelectual, segundo o autor?",
+      "alternativas": [
+        "Desenvolver competências para interpretar informações e participar de debates sociais, culturais e científicos.",
+        "Aceitar passivamente todas as informações.",
+        "Evitar discussões sociais e culturais.",
+        "Confiar somente em opiniões pessoais."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 59.45483075783136
+}

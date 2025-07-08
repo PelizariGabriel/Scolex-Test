@@ -1,0 +1,57 @@
+{
+  "titulo": "A história do café no Brasil",
+  "texto": "O café chegou ao Brasil no início do século XVIII e rapidamente se tornou um dos principais produtos agrícolas do país. Sua introdução está ligada a fazendas coloniais que buscavam diversificar a produção, inicialmente no estado do Pará e depois principalmente em Minas Gerais, São Paulo e Rio de Janeiro.\n\nDurante o século XIX, o cultivo do café impulsionou o desenvolvimento econômico e social brasileiro. A expansão das plantações levou à necessidade de mão de obra intensiva, influenciando profundamente a história do trabalho e da escravidão no país.\n\nO café brasileiro ganhou destaque internacional, tornando-se o maior exportador mundial do produto por muitos anos. A cultura do café moldou cidades e regiões, influenciou a infraestrutura com ferrovias e ajudou a consolidar o Brasil como potência agrícola.\n\nHoje, o país continua sendo um dos maiores produtores e exportadores de café do mundo, com variedades que atendem a diferentes paladares e mercados. A história do café no Brasil é um exemplo da relação entre agricultura, economia e cultura, marcada por desafios e conquistas ao longo dos séculos.",
+  "perguntas": [
+    {
+      "pergunta": "Quando o café chegou ao Brasil?",
+      "alternativas": [
+        "No final do século XIX.",
+        "No início do século XVIII.",
+        "Durante a colonização portuguesa no século XVI.",
+        "Após a abolição da escravidão."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual foi o impacto do cultivo de café no século XIX para o Brasil?",
+      "alternativas": [
+        "Causou a diminuição da produção agrícola.",
+        "Impulsionou o desenvolvimento econômico e social.",
+        "Levou ao fim das atividades industriais.",
+        "Inibiu a construção de ferrovias no interior do país."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que o café influenciou a história do trabalho e da escravidão no Brasil?",
+      "alternativas": [
+        "Porque reduziu a necessidade de trabalhadores nas cidades.",
+        "Porque sua colheita era automatizada desde o início.",
+        "Porque exigia grande quantidade de mão de obra nas plantações.",
+        "Porque substituiu o cultivo da cana-de-açúcar nas regiões litorâneas."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Como o café contribuiu para a infraestrutura do país?",
+      "alternativas": [
+        "Levou à criação de aeroportos para exportação.",
+        "Promoveu o desenvolvimento de portos fluviais no Norte.",
+        "Incentivou a construção de ferrovias nas regiões cafeeiras.",
+        "Fez com que as plantações se concentrassem apenas no Nordeste."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "O que o texto sugere sobre a importância atual do café no Brasil?",
+      "alternativas": [
+        "O Brasil não produz mais café em grande escala.",
+        "O café brasileiro perdeu espaço no mercado mundial.",
+        "O Brasil continua sendo um dos maiores produtores e exportadores de café.",
+        "A produção de café hoje é exclusivamente voltada ao consumo interno."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 70.12056296848537
+}

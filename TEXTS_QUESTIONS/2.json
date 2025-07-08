@@ -1,0 +1,57 @@
+{
+  "titulo": "Como funciona um buraco negro",
+  "texto": "Um buraco negro é uma região do espaço onde a gravidade é tão intensa que nada, nem mesmo a luz, consegue escapar de sua atração. Eles surgem geralmente a partir do colapso gravitacional de estrelas muito massivas, que ao esgotarem seu combustível, perdem a capacidade de resistir à força da própria gravidade.\n\nA existência dos buracos negros foi prevista pela teoria da relatividade geral de Einstein, que descreve como a gravidade pode curvar o espaço-tempo. No centro de um buraco negro encontra-se a singularidade, um ponto de densidade infinita e volume praticamente zero, onde as leis conhecidas da física deixam de funcionar.\n\nAo redor da singularidade existe o horizonte de eventos, uma espécie de “ponto sem retorno”. Tudo o que ultrapassa esse limite é inevitavelmente puxado para o interior do buraco negro, desaparecendo do universo observável.\n\nEmbora invisíveis, os buracos negros podem ser detectados indiretamente, pela influência gravitacional sobre estrelas próximas ou pela emissão de radiação gerada quando matéria é acelerada e aquecida antes de ser engolida.\n\nOs buracos negros intrigam os cientistas e inspiram debates filosóficos sobre o destino da informação e a natureza do espaço-tempo. Sua compreensão ajuda a aprofundar o conhecimento sobre a estrutura do cosmos e os limites da física moderna.",
+  "perguntas": [
+    {
+      "pergunta": "O que caracteriza um buraco negro?",
+      "alternativas": [
+        "Uma região do espaço onde a luz se propaga mais rapidamente.",
+        "Uma estrela que ainda possui muito combustível.",
+        "Uma região do espaço com gravidade tão intensa que nada pode escapar.",
+        "Um tipo de cometa com núcleo denso."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Como, geralmente, um buraco negro se forma?",
+      "alternativas": [
+        "Pelo resfriamento de planetas gigantes.",
+        "Pelo colapso de uma estrela muito massiva após esgotar seu combustível.",
+        "Pela colisão entre galáxias.",
+        "Pelo aumento da pressão em uma estrela pequena."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que é o horizonte de eventos em um buraco negro?",
+      "alternativas": [
+        "A camada visível da superfície do buraco negro.",
+        "Uma linha imaginária de onde se pode observar o universo.",
+        "O ponto onde a radiação é liberada.",
+        "Um limite além do qual nada pode escapar da gravidade do buraco negro."
+      ],
+      "resposta_correta": 3
+    },
+    {
+      "pergunta": "Como os buracos negros podem ser detectados, mesmo sendo invisíveis?",
+      "alternativas": [
+        "Pelo reflexo da luz em sua superfície.",
+        "Por sua interferência na velocidade da luz em galáxias distantes.",
+        "Pela influência gravitacional em objetos próximos e pela radiação emitida antes da matéria ser absorvida.",
+        "Pela emissão de som de alta frequência captado por telescópios espaciais."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual é a importância dos buracos negros para a ciência, segundo o texto?",
+      "alternativas": [
+        "Eles explicam o funcionamento das estrelas.",
+        "Ajudam a entender o comportamento de cometas e asteroides.",
+        "São fontes de energia para o universo.",
+        "Aprofundam o conhecimento sobre o cosmos e os limites da física moderna."
+      ],
+      "resposta_correta": 3
+    }
+  ],
+  "scolex_level": 51.6393142706052
+}

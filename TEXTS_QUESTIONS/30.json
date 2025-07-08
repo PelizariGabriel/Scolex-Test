@@ -1,0 +1,57 @@
+{
+  "titulo": "Epistemologia e Paradigmas Científicos Contemporâneos",
+  "texto": "A epistemologia, enquanto disciplina filosófica que investiga os fundamentos e limites do conhecimento, ocupa papel central na compreensão dos paradigmas científicos atuais. Eu percebo que, na contemporaneidade, os paradigmas não apenas orientam metodologias, mas também condicionam os próprios objetos de estudo e as interpretações dos dados.\n\nThomas Kuhn destacou que as revoluções científicas ocorrem quando um paradigma vigente é substituído por outro, resultado de anomalias acumuladas que desafiam as explicações tradicionais. Essa visão relativiza a ideia de progresso linear e aponta para uma ciência mais dinâmica e contextualizada.\n\nAlém disso, debates epistemológicos contemporâneos envolvem a interdisciplinaridade, o papel da tecnologia na produção do conhecimento e a influência de fatores sociais e culturais. A ciência não é um empreendimento isolado, mas imerso em redes complexas de interesses e valores.\n\nEu acredito que o reconhecimento dessas condições torna a prática científica mais reflexiva e ética, contribuindo para a construção de um saber mais robusto e socialmente responsável. A epistemologia, assim, oferece ferramentas para questionar pressupostos, validar métodos e legitimar conhecimentos.\n\nPor fim, compreendo que a formação acadêmica deve contemplar esse olhar crítico e epistemológico, capacitando pesquisadores a dialogar entre diferentes paradigmas e a enfrentar os desafios epistemológicos que emergem na produção científica contemporânea.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o papel da epistemologia na compreensão dos paradigmas científicos?",
+      "alternativas": [
+        "Investigar os fundamentos e limites do conhecimento e orientar a prática científica.",
+        "Ignorar as metodologias científicas.",
+        "Definir apenas os objetos de estudo sem questionar métodos.",
+        "Promover um progresso linear e inquestionável."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Segundo Thomas Kuhn, quando ocorrem as revoluções científicas?",
+      "alternativas": [
+        "Quando um paradigma vigente é substituído por outro devido a anomalias acumuladas.",
+        "Quando o conhecimento permanece constante e imutável.",
+        "Quando os cientistas evitam questionar as teorias.",
+        "Quando não há desafios às explicações tradicionais."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais fatores são considerados nos debates epistemológicos contemporâneos?",
+      "alternativas": [
+        "Interdisciplinaridade, papel da tecnologia, e influência social e cultural.",
+        "Apenas dados experimentais isolados.",
+        "Exclusivamente teorias antigas e fixas.",
+        "Negação da influência cultural na ciência."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como a epistemologia contribui para a prática científica, segundo o texto?",
+      "alternativas": [
+        "Oferece ferramentas para questionar pressupostos, validar métodos e legitimar conhecimentos.",
+        "Impede o questionamento dos métodos científicos.",
+        "Isola a ciência das influências sociais.",
+        "Desconsidera a ética na pesquisa."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que a formação acadêmica deve contemplar o olhar epistemológico?",
+      "alternativas": [
+        "Para capacitar pesquisadores a dialogar entre paradigmas e enfrentar desafios epistemológicos.",
+        "Para manter os pesquisadores presos a um único paradigma.",
+        "Para evitar o debate crítico na ciência.",
+        "Para limitar a interdisciplinaridade."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 52.15595050618545
+}

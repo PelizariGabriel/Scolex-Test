@@ -1,0 +1,57 @@
+{
+  "titulo": "Complexidade dos Sistemas Sociais e Interdisciplinaridade",
+  "texto": "Tenho refletido sobre a complexidade dos sistemas sociais e suas interações multifacetadas, que envolvem dimensões econômicas, políticas e culturais. A compreensão desses sistemas requer uma análise interdisciplinar que incorpore teorias, dados empíricos e perspectivas críticas.\n\nNa minha trajetória acadêmica, percebi que o conhecimento fragmentado dificulta a apreensão do todo, o que reforça a necessidade de abordagens integradas. Além disso, a experiência pessoal e o diálogo constante com diferentes áreas enriquecem a análise, possibilitando insights mais profundos.\n\nA complexidade não deve ser vista como um obstáculo, mas como uma oportunidade para expandir horizontes e construir soluções inovadoras que atendam às demandas contemporâneas de sustentabilidade, equidade e inclusão.",
+  "perguntas": [
+    {
+      "pergunta": "Quais dimensões são envolvidas na complexidade dos sistemas sociais mencionados no texto?",
+      "alternativas": [
+        "Econômicas, políticas e culturais.",
+        "Somente econômicas e políticas.",
+        "Culturais e naturais.",
+        "Tecnológicas e científicas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que é necessário para compreender esses sistemas sociais complexos?",
+      "alternativas": [
+        "Uma análise interdisciplinar que incorpore teorias, dados empíricos e perspectivas críticas.",
+        "Focar apenas em uma área de conhecimento.",
+        "Ignorar dados empíricos.",
+        "Aplicar somente teorias tradicionais."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Segundo o autor, qual é a dificuldade do conhecimento fragmentado?",
+      "alternativas": [
+        "Facilita a compreensão do todo.",
+        "Dificulta a apreensão do todo.",
+        "Não tem impacto na análise.",
+        "É a melhor forma de entender sistemas complexos."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como a experiência pessoal e o diálogo contribuem para a análise dos sistemas sociais?",
+      "alternativas": [
+        "Enriquecem a análise e possibilitam insights mais profundos.",
+        "Complicam a compreensão dos sistemas.",
+        "São irrelevantes para a análise crítica.",
+        "Devem ser evitados para manter objetividade."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como o texto sugere que devemos encarar a complexidade?",
+      "alternativas": [
+        "Como um obstáculo que dificulta o progresso.",
+        "Como uma oportunidade para expandir horizontes e construir soluções inovadoras.",
+        "Como algo que deve ser ignorado.",
+        "Como um problema insolúvel."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 35.24659713187156
+}

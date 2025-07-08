@@ -1,0 +1,57 @@
+{
+  "titulo": "A Casa da Vovó",
+  "texto": "Eu gosto muito de visitar a casa da minha avó. Ela mora em um lugar calmo, com muitas árvores e flores. A casa é pequena, mas aconchegante. Sempre que chego lá, ela me recebe com um abraço e um sorriso.\n\nMinha avó faz bolos gostosos. O cheiro de bolo quente enche a cozinha. Depois do lanche, a gente senta na varanda para conversar. Às vezes, ela conta histórias do passado. Eu gosto de ouvir.\n\nNo quintal, tem um pé de jabuticaba. Quando as frutas estão maduras, a gente colhe e come ali mesmo. Eu também ajudo a regar as plantas e alimentar os passarinhos.\n\nÀ noite, dormimos cedo. A cama da avó é macia e tem um cobertor quentinho. Eu durmo tranquilo.\n\nIr à casa da vovó me faz sentir bem. É um lugar de carinho, calma e muitas lembranças boas.",
+  "perguntas": [
+    {
+      "pergunta": "Como é o lugar onde a avó mora?",
+      "alternativas": [
+        "Calmo, com muitas árvores e flores",
+        "Agitado e cheio de pessoas",
+        "No centro da cidade",
+        "Perto da praia"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que a avó costuma fazer que deixa a cozinha cheirosa?",
+      "alternativas": [
+        "Fazer bolos gostosos",
+        "Cozinhar arroz",
+        "Fazer café",
+        "Assar pão"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o narrador e a avó fazem depois do lanche?",
+      "alternativas": [
+        "Sentam na varanda para conversar",
+        "Jogam cartas",
+        "Assistem televisão",
+        "Leem livros"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que tem no quintal da casa da avó?",
+      "alternativas": [
+        "Um pé de jabuticaba",
+        "Uma horta de legumes",
+        "Uma piscina",
+        "Um pomar de laranjas"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como o narrador se sente ao visitar a casa da avó?",
+      "alternativas": [
+        "Bem, em um lugar de carinho e calma",
+        "Cansado e nervoso",
+        "Com saudade de casa",
+        "Entediado e sozinho"
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 22.654255392349835
+}

@@ -1,0 +1,57 @@
+{
+  "titulo": "Meu Quarto",
+  "texto": "Meu quarto é meu lugar favorito da casa. Lá eu posso descansar, estudar e brincar. Tenho uma cama, uma escrivaninha, um armário e uma estante com livros e brinquedos.\n\nA parede tem pôsteres que eu gosto. Tem um do meu time de futebol e outro de um filme. Eu mesmo escolhi as cores do quarto.\n\nNa escrivaninha, eu faço meus deveres da escola. Também gosto de desenhar. Quando estou cansado, deito na cama e leio um livro ou escuto música.\n\nÀ noite, fecho a cortina e acendo o abajur. Gosto do silêncio e do conforto. É meu espaço, onde tudo está do meu jeito.\n\nTer um quarto só meu me deixa feliz. É o lugar onde eu posso ser quem sou, em paz.\n\n",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o lugar favorito do narrador na casa?",
+      "alternativas": [
+        "O quarto",
+        "A sala",
+        "A cozinha",
+        "O quintal"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o narrador tem no quarto?",
+      "alternativas": [
+        "Cama, escrivaninha, armário e estante",
+        "Sofá, televisão e mesa de jantar",
+        "Computador, geladeira e estante",
+        "Cama, cadeira e televisão"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o narrador faz na escrivaninha?",
+      "alternativas": [
+        "Faz os deveres da escola e desenha",
+        "Assiste televisão",
+        "Joga videogame",
+        "Cozinha"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o narrador faz quando está cansado?",
+      "alternativas": [
+        "Deita na cama, lê um livro ou escuta música",
+        "Sai para passear",
+        "Fica no computador",
+        "Liga a televisão"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que o quarto é especial para o narrador?",
+      "alternativas": [
+        "Porque é o lugar onde ele pode ser quem é, em paz",
+        "Porque é o maior cômodo da casa",
+        "Porque tem muitos brinquedos",
+        "Porque é perto da cozinha"
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 13.969626286005097
+}

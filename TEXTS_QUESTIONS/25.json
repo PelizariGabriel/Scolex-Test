@@ -1,0 +1,57 @@
+{
+  "titulo": "A Influência da Cultura na Formação da Identidade",
+  "texto": "A identidade de uma pessoa é fortemente moldada pela cultura à qual ela pertence. Eu entendo que a cultura é um sistema complexo de símbolos, valores e práticas que dão sentido às experiências humanas.\n\nAo crescer, os indivíduos internalizam essas referências culturais, que influenciam suas crenças, comportamentos e percepções do mundo. Contudo, a pluralidade cultural contemporânea expande essa formação, permitindo múltiplas identidades e formas de expressão.\n\nPorém, essa diversidade pode também gerar tensões, especialmente quando grupos culturais diferentes disputam reconhecimento e espaço social. O diálogo intercultural torna-se, portanto, fundamental para promover a convivência pacífica e o respeito às diferenças.\n\nEm minha observação, processos como a globalização e as migrações intensificam essas dinâmicas, exigindo que as sociedades desenvolvam políticas inclusivas e educacionais que valorizem a diversidade.\n\nAssim, a cultura não é um elemento fixo, mas um campo dinâmico de negociação e transformação, que contribui para a construção de identidades múltiplas e complexas.",
+  "perguntas": [
+    {
+      "pergunta": "O que molda fortemente a identidade de uma pessoa segundo o texto?",
+      "alternativas": [
+        "A cultura à qual ela pertence.",
+        "A genética exclusivamente.",
+        "O ambiente físico apenas.",
+        "A tecnologia usada pela pessoa."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como a pluralidade cultural contemporânea influencia a formação da identidade?",
+      "alternativas": [
+        "Permite múltiplas identidades e formas de expressão.",
+        "Elimina as diferenças culturais.",
+        "Restringe a identidade a um único grupo.",
+        "Ignora as práticas culturais tradicionais."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que o diálogo intercultural é considerado fundamental?",
+      "alternativas": [
+        "Para promover convivência pacífica e respeito às diferenças.",
+        "Para eliminar a diversidade cultural.",
+        "Para manter tensões sociais.",
+        "Para impor uma cultura dominante."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais processos intensificam as dinâmicas culturais e demandam políticas inclusivas?",
+      "alternativas": [
+        "Globalização e migrações.",
+        "Isolamento e censura.",
+        "Tecnologia e automação.",
+        "Redução da população."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como o texto define a cultura?",
+      "alternativas": [
+        "Como um campo dinâmico de negociação e transformação.",
+        "Como um elemento fixo e imutável.",
+        "Como algo irrelevante para a identidade.",
+        "Como um sistema exclusivamente tecnológico."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 75.26492469727654
+}

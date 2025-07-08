@@ -1,0 +1,57 @@
+{
+  "titulo": "A Importância da Escola na Vida das Crianças",
+  "texto": "A escola tem uma grande importância na formação das crianças. É o local onde elas aprendem não só conteúdos acadêmicos, mas também valores sociais. O ambiente escolar proporciona interação e desenvolvimento emocional. Professores dedicados orientam os alunos para que possam superar desafios e conquistar conhecimentos.\n\nAlém do ensino tradicional, as atividades extracurriculares enriquecem a experiência dos estudantes, promovendo criatividade e habilidades práticas. É fundamental que as famílias acompanhem o processo educacional para garantir um apoio constante.\n\nO aprendizado envolve tanto a parte concreta, como matemática e ciências, quanto aspectos mais abstratos, como ética e cidadania. Esse equilíbrio prepara as crianças para uma vida mais consciente e participativa na sociedade.\n\nA educação é a base para o crescimento pessoal e coletivo. Por isso, investir em escolas de qualidade é essencial para o futuro de um país.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o papel principal da escola, segundo o texto?",
+      "alternativas": [
+        "Oferecer apenas conteúdos acadêmicos.",
+        "Formar as crianças tanto academicamente quanto socialmente.",
+        "Ensinar apenas atividades extracurriculares.",
+        "Substituir a família na educação das crianças."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que as atividades extracurriculares promovem, segundo o texto?",
+      "alternativas": [
+        "Somente o desempenho em provas.",
+        "Criatividade e habilidades práticas.",
+        "Isolamento dos estudantes.",
+        "Desinteresse pela escola."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que é importante o acompanhamento das famílias no processo educacional?",
+      "alternativas": [
+        "Para garantir um apoio constante às crianças.",
+        "Para controlar o que os professores ensinam.",
+        "Para substituir os professores.",
+        "Para preparar as crianças para competições esportivas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais aspectos o aprendizado na escola deve equilibrar?",
+      "alternativas": [
+        "Conteúdos acadêmicos e ética/cidadania.",
+        "Somente matemática e ciências.",
+        "Aulas teóricas sem atividades práticas.",
+        "Exclusivamente valores religiosos."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que investir em escolas de qualidade é essencial, segundo o texto?",
+      "alternativas": [
+        "Para garantir o crescimento pessoal e coletivo e o futuro do país.",
+        "Para aumentar o número de alunos matriculados.",
+        "Para reduzir a carga horária escolar.",
+        "Para priorizar apenas o ensino de tecnologia."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 66.02444854821339
+}

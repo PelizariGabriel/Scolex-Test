@@ -1,0 +1,57 @@
+{
+  "titulo": "Minha Escola",
+  "texto": "Eu vou à escola todos os dias. Na escola, eu estudo várias matérias, como matemática, português e ciências. Eu gosto de aprender coisas novas e de fazer amigos. A professora explica as aulas e nos ajuda quando temos dúvidas. Durante o recreio, eu brinco com meus colegas no pátio. Também gosto de ler livros na biblioteca. A escola é um lugar onde eu aprendo e me divirto. Meus pais dizem que a escola é importante para o meu futuro. Por isso, eu tento fazer o meu melhor. Eu me sinto feliz na escola porque lá eu posso crescer e descobrir o mundo.",
+  "perguntas": [
+    {
+      "pergunta": "Por que o aluno gosta da escola?",
+      "alternativas": [
+        "Porque pode fazer amigos e aprender coisas novas.",
+        "Porque só brinca no recreio.",
+        "Porque não precisa estudar.",
+        "Porque não tem professores."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais matérias o aluno estuda na escola?",
+      "alternativas": [
+        "Matemática, português e ciências.",
+        "Esportes, música e arte.",
+        "História, geografia e inglês.",
+        "Educação física, química e biologia."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que a professora faz para ajudar os alunos?",
+      "alternativas": [
+        "Explica as aulas e ajuda quando eles têm dúvidas.",
+        "Brinca no recreio.",
+        "Fica na biblioteca lendo livros.",
+        "Não conversa com os alunos."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Onde o aluno gosta de ler livros?",
+      "alternativas": [
+        "Na biblioteca.",
+        "No pátio.",
+        "Na sala de aula.",
+        "Em casa."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que os pais dizem que a escola é importante?",
+      "alternativas": [
+        "Para o futuro do aluno.",
+        "Para brincar com os amigos.",
+        "Para não fazer tarefas.",
+        "Para ficar em casa."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 15.706108540118516
+}

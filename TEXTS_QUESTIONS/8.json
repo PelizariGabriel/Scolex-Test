@@ -1,0 +1,57 @@
+{
+  "titulo": "A arte da pintura renascentista",
+  "texto": "A pintura renascentista representa um dos períodos mais influentes da história da arte, caracterizado pelo retorno aos valores da antiguidade clássica e pela busca da harmonia e realismo nas obras. Artistas como Leonardo da Vinci, Michelangelo e Rafael exploraram técnicas como a perspectiva linear e o uso da luz para conferir profundidade e naturalidade às imagens.\n\nAs obras dessa época não se limitam à reprodução fiel da realidade, mas também transmitem emoções e simbolismos profundos, refletindo a visão humanista que valorizava o potencial e a dignidade do ser humano.\n\nA pintura renascentista influenciou não apenas a arte, mas também a cultura e a filosofia, marcando uma transição importante entre a Idade Média e a modernidade. Através das cores, formas e composições, esses artistas convidam o espectador a uma experiência estética e intelectual enriquecedora.",
+  "perguntas": [
+    {
+      "pergunta": "Qual característica define a pintura renascentista, segundo o texto?",
+      "alternativas": [
+        "Foco em temas exclusivamente religiosos.",
+        "Retorno aos valores da antiguidade clássica e busca da harmonia e realismo.",
+        "Uso de cores vibrantes e formas abstratas.",
+        "Rejeição da perspectiva linear."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais técnicas os artistas renascentistas exploraram para dar profundidade às imagens?",
+      "alternativas": [
+        "Perspectiva linear e uso da luz.",
+        "Escultura em mármore e uso de mosaicos.",
+        "Pintura com tintas fluorescentes e desenhos geométricos.",
+        "Abstração e cubismo."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Além da reprodução da realidade, o que as obras renascentistas transmitem?",
+      "alternativas": [
+        "Somente cenas mitológicas.",
+        "Emoções e simbolismos profundos relacionados à visão humanista.",
+        "Imagens apenas decorativas e superficiais.",
+        "Críticas à ciência e à filosofia."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual foi o impacto da pintura renascentista além da arte, conforme o texto?",
+      "alternativas": [
+        "Influenciou a cultura e a filosofia, marcando a transição da Idade Média para a modernidade.",
+        "Foi rejeitada pela sociedade da época.",
+        "Limitou-se apenas às artes plásticas.",
+        "Foi responsável pelo surgimento do impressionismo."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como os artistas renascentistas convidam o espectador a experimentar suas obras?",
+      "alternativas": [
+        "Por meio de experiências estéticas e intelectuais enriquecedoras.",
+        "Com o uso de textos explicativos extensos.",
+        "Por meio de performances ao vivo.",
+        "Com a exclusão de elementos simbólicos."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 63.642751790300366
+}

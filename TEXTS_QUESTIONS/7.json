@@ -1,0 +1,57 @@
+{
+  "titulo": "A evolução dos smartphones",
+  "texto": "Desde o lançamento do primeiro smartphone, o dispositivo passou por transformações significativas que revolucionaram a comunicação e o acesso à informação. Inicialmente, os aparelhos combinavam funções básicas de telefone e agenda eletrônica.\n\nCom o avanço da tecnologia, incorporaram telas sensíveis ao toque, câmeras de alta resolução, sensores biométricos e conexões rápidas de internet. Sistemas operacionais como Android e iOS possibilitaram o desenvolvimento de aplicativos que ampliaram as funcionalidades dos smartphones.\n\nHoje, esses dispositivos são verdadeiros computadores de bolso, capazes de executar tarefas complexas, desde edição de vídeo até realidade aumentada. A evolução também trouxe desafios relacionados à segurança, privacidade e impacto social.\n\nAssim, a trajetória dos smartphones é marcada por inovação constante, refletindo as demandas e expectativas de uma sociedade cada vez mais conectada.\n\n",
+  "perguntas": [
+    {
+      "pergunta": "Como eram os primeiros smartphones descritos no texto?",
+      "alternativas": [
+        "Aparelhos que combinavam funções básicas de telefone e agenda eletrônica.",
+        "Dispositivos com telas sensíveis ao toque e câmeras de alta resolução.",
+        "Equipados com sensores biométricos e conexões rápidas de internet.",
+        "Computadores de bolso com funções avançadas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais avanços tecnológicos foram incorporados aos smartphones ao longo do tempo?",
+      "alternativas": [
+        "Somente melhorias na bateria e tamanho.",
+        "Telas sensíveis ao toque, câmeras, sensores biométricos e conexões rápidas de internet.",
+        "Remoção da função de telefone para focar em jogos.",
+        "Apenas maior capacidade de armazenamento."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual o papel dos sistemas operacionais como Android e iOS, segundo o texto?",
+      "alternativas": [
+        "Servem apenas para atualizar o software automaticamente.",
+        "Permitem o desenvolvimento de aplicativos que ampliam as funcionalidades dos smartphones.",
+        "São usados apenas para configurar a rede de internet.",
+        "Controlam exclusivamente as funções da câmera."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Quais desafios a evolução dos smartphones trouxe?",
+      "alternativas": [
+        "Dificuldades para fabricar aparelhos maiores.",
+        "Problemas relacionados à segurança, privacidade e impacto social.",
+        "Falta de interesse dos consumidores.",
+        "Incapacidade de executar tarefas complexas."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como o texto define os smartphones atualmente?",
+      "alternativas": [
+        "Dispositivos obsoletos que serão substituídos por computadores.",
+        "Aparelhos com funções limitadas a chamadas telefônicas.",
+        "Computadores de bolso capazes de executar tarefas complexas.",
+        "Equipamentos usados apenas para jogos e redes sociais."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 90.80489522444267
+}

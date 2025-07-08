@@ -1,0 +1,57 @@
+{
+  "titulo": "As Estações do Ano",
+  "texto": "O ano tem quatro estações: verão, outono, inverno e primavera. No verão, faz muito calor. As pessoas vão à praia e tomam sorvete. Eu gosto de brincar ao ar livre.\n\nNo outono, as folhas das árvores caem. O tempo começa a esfriar. As manhãs são frescas e o céu tem poucas nuvens.\n\nO inverno é a estação mais fria. As pessoas usam casacos, cachecóis e gorros. Gosto de tomar chocolate quente e ver filmes com minha família.\n\nNa primavera, as flores nascem. Os jardins ficam coloridos e cheios de vida. Eu gosto de ver borboletas e passarinhos.\n\nCada estação tem sua beleza. Eu gosto de todas elas por motivos diferentes.",
+  "perguntas": [
+    {
+      "pergunta": "Quantas estações tem o ano?",
+      "alternativas": [
+        "Três",
+        "Quatro",
+        "Cinco",
+        "Duas"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que as pessoas costumam fazer no verão?",
+      "alternativas": [
+        "Usar casacos e cachecóis",
+        "Ver borboletas e passarinhos",
+        "Ir à praia e tomar sorvete",
+        "Ver filmes com a família"
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "O que acontece com as folhas das árvores no outono?",
+      "alternativas": [
+        "Elas florescem",
+        "Elas caem",
+        "Elas ficam verdes",
+        "Elas crescem mais"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual é a estação mais fria do ano?",
+      "alternativas": [
+        "Verão",
+        "Outono",
+        "Inverno",
+        "Primavera"
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "O que o narrador gosta de ver na primavera?",
+      "alternativas": [
+        "Gorros e cachecóis",
+        "Borboletas e passarinhos",
+        "Folhas caindo",
+        "Sorvete e praia"
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 26.11734439119551
+}

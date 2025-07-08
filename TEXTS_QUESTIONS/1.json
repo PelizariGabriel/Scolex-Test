@@ -1,0 +1,57 @@
+{
+  "titulo": "A importância da água para a vida",
+  "texto": "A água é um recurso essencial para a existência de todos os seres vivos no planeta. Sem água, a vida como conhecemos simplesmente não existiria. Desde as plantas que realizam a fotossíntese até os animais e seres humanos, todos dependem da água para sobreviver. Além disso, a água regula a temperatura do corpo, auxilia no transporte de nutrientes e na eliminação de toxinas.\n\nA água potável, no entanto, é um recurso limitado e está cada vez mais ameaçado pela poluição e pelo desperdício. Muitas regiões enfrentam escassez hídrica, o que compromete o desenvolvimento social e econômico. É por isso que o uso consciente e a preservação das fontes de água são tão importantes.\n\nAlém do consumo direto, a água é indispensável para a agricultura, a indústria e a geração de energia. O ciclo da água na natureza, que envolve a evaporação, condensação e precipitação, mantém o equilíbrio ambiental e permite a renovação dos recursos hídricos.\n\nCada um de nós pode contribuir para a preservação da água, evitando o desperdício, não poluindo rios e reservatórios e apoiando iniciativas que protejam mananciais. A conscientização e a educação ambiental são ferramentas poderosas para garantir que as futuras gerações tenham acesso a esse recurso vital.\n\nPor fim, entender a importância da água para a vida é reconhecer que ela está diretamente ligada à qualidade do ar, do solo e à biodiversidade. Cuidar da água é cuidar da vida em sua forma mais ampla.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é a principal mensagem do texto?",
+      "alternativas": [
+        "A água é abundante e acessível em todas as regiões do planeta.",
+        "A água deve ser usada apenas na agricultura e na indústria.",
+        "A água é essencial para a vida e precisa ser preservada.",
+        "A poluição da água não causa impactos sociais ou ambientais."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Segundo o texto, quais são algumas das funções da água no corpo humano?",
+      "alternativas": [
+        "Reproduzir células e aumentar o nível de açúcar no sangue.",
+        "Regular a temperatura, transportar nutrientes e eliminar toxinas.",
+        "Produzir energia e aumentar a massa muscular.",
+        "Melhorar a visão e curar doenças infecciosas."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que significa a expressão “escassez hídrica” no contexto do texto?",
+      "alternativas": [
+        "Excesso de água nas regiões agrícolas.",
+        "Falta de investimentos em energia renovável.",
+        "Falta ou insuficiência de água potável em determinadas regiões.",
+        "Crescimento populacional acelerado."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual das alternativas apresenta uma ação recomendada pelo texto para preservar a água?",
+      "alternativas": [
+        "Lavar calçadas com mangueira regularmente.",
+        "Usar fertilizantes químicos em grande quantidade.",
+        "Apoiar iniciativas de proteção de mananciais.",
+        "Jogar lixo orgânico nos rios."
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "De acordo com o texto, por que cuidar da água é também cuidar da vida?",
+      "alternativas": [
+        "Porque a água pode substituir o ar e o solo.",
+        "Porque a água não tem relação com os ecossistemas.",
+        "Porque ela está ligada à qualidade do ar, do solo e à biodiversidade.",
+        "Porque ela é usada apenas para consumo humano."
+      ],
+      "resposta_correta": 2
+    }
+  ],
+  "scolex_level": 52.080925017357686
+}

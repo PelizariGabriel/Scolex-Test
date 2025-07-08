@@ -1,0 +1,57 @@
+{
+  "titulo": "Um Dia na Praia",
+  "texto": "No fim de semana, eu fui à praia com minha família. O dia estava quente e o céu bem azul. Chegamos cedo, colocamos o guarda-sol e estendemos a toalha na areia. Eu tirei os chinelos e senti a areia quente nos pés.\n\nCorri até o mar. A água estava fria, mas muito boa. Entrei com cuidado, pulei as ondas e brinquei um pouco. Depois, voltei para a areia e fiz um castelo com meu irmão. Usamos baldes, conchas e até folhas secas.\n\nMinha mãe levou frutas e suco. Comemos debaixo do guarda-sol. Eu também bebi água para não ficar com sede. À tarde, andamos pela beira da praia e vimos gaivotas voando.\n\nO vento começou a soprar mais forte. As ondas estavam maiores. Então, juntamos nossas coisas e fomos embora. No carro, eu estava cansado, mas feliz. Gosto muito da praia. Lá eu brinco, me divirto e passo tempo com minha família.\n\nFoi um dia simples, mas muito bom.",
+  "perguntas": [
+    {
+      "pergunta": "Como estava o tempo no dia em que o narrador foi à praia?",
+      "alternativas": [
+        "Quente e com céu azul",
+        "Chuvoso e nublado",
+        "Frio e ventoso",
+        "Com neblina"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o narrador fez com seu irmão na praia?",
+      "alternativas": [
+        "Fez um castelo de areia",
+        "Nadou no mar",
+        "Jogou bola",
+        "Foi pescar"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que a mãe do narrador levou para a praia?",
+      "alternativas": [
+        "Frutas e suco",
+        "Sanduíches e refrigerante",
+        "Pipoca e sorvete",
+        "Chocolate e água"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que aconteceu quando o vento começou a soprar mais forte?",
+      "alternativas": [
+        "Juntaram as coisas e foram embora",
+        "Continuaram brincando no mar",
+        "Fizeram um piquenique",
+        "Ficaram no guarda-sol"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como o narrador se sentiu no final do dia?",
+      "alternativas": [
+        "Cansado, mas feliz",
+        "Triste e entediado",
+        "Com medo do mar",
+        "Com fome"
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 10.389415565937258
+}

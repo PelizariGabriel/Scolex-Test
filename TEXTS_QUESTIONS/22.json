@@ -1,0 +1,57 @@
+{
+  "titulo": "Sustentabilidade e Desenvolvimento Econômico",
+  "texto": "A sustentabilidade tornou-se um conceito central nas discussões sobre o futuro do planeta. Ela busca harmonizar o crescimento econômico com a preservação ambiental e a justiça social. Em minha opinião, para alcançar esse equilíbrio, é necessário repensar modelos produtivos e formas de consumo que se mostraram insustentáveis.\n\nA inovação tecnológica pode ajudar a reduzir impactos ambientais, promovendo energia limpa, reciclagem e eficiência no uso dos recursos naturais. Porém, essas mudanças exigem investimentos significativos e políticas públicas efetivas.\n\nOutro aspecto importante é a participação da sociedade, que deve estar engajada para pressionar por práticas responsáveis e cobrar transparência dos agentes econômicos. A educação ambiental desempenha papel crucial nesse processo, sensibilizando cidadãos sobre a importância da conservação e do uso racional dos recursos.\n\nAlém disso, a inclusão social deve caminhar lado a lado com a sustentabilidade, garantindo que o desenvolvimento não agrave desigualdades. A criação de empregos verdes e o acesso a serviços básicos são fundamentais para construir uma sociedade mais justa.\n\nPortanto, o desenvolvimento sustentável exige uma abordagem integrada e multidimensional, que reconheça a interdependência entre economia, meio ambiente e sociedade. É um desafio complexo, mas imprescindível para assegurar a qualidade de vida das gerações presentes e futuras.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é o objetivo principal da sustentabilidade segundo o texto?",
+      "alternativas": [
+        "Promover apenas o crescimento econômico.",
+        "Harmonizar crescimento econômico, preservação ambiental e justiça social.",
+        "Aumentar o consumo de recursos naturais.",
+        "Focar somente na preservação ambiental."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como a inovação tecnológica pode contribuir para a sustentabilidade?",
+      "alternativas": [
+        "Aumentando o uso de combustíveis fósseis.",
+        "Promovendo energia limpa, reciclagem e eficiência no uso dos recursos naturais.",
+        "Reduzindo o investimento em políticas públicas.",
+        "Ignorando a preservação ambiental."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual o papel da sociedade na sustentabilidade, conforme o texto?",
+      "alternativas": [
+        "Ficar indiferente às práticas econômicas.",
+        "Engajar-se para pressionar por práticas responsáveis e cobrar transparência.",
+        "Evitar participação em questões ambientais.",
+        "Apoiar somente o crescimento econômico."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que a inclusão social é importante para o desenvolvimento sustentável?",
+      "alternativas": [
+        "Porque garante que o desenvolvimento não agrave desigualdades.",
+        "Porque deve ser separada da sustentabilidade.",
+        "Porque prioriza o crescimento econômico acima de tudo.",
+        "Porque ignora o acesso a serviços básicos."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que o texto indica como fundamental para assegurar a qualidade de vida das gerações presentes e futuras?",
+      "alternativas": [
+        "Uma abordagem integrada e multidimensional que reconheça a interdependência entre economia, meio ambiente e sociedade.",
+        "Investir apenas em crescimento econômico rápido.",
+        "Desconsiderar os impactos ambientais.",
+        "Ignorar as desigualdades sociais."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 73.5518247621541
+}

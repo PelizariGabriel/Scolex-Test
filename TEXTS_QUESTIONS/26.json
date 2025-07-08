@@ -1,0 +1,57 @@
+{
+  "titulo": "Políticas Públicas e Desigualdade Social",
+  "texto": "As desigualdades sociais persistem como um dos maiores desafios das sociedades contemporâneas, demandando políticas públicas eficazes para sua mitigação. Eu avalio que essas políticas precisam ser formuladas com base em dados precisos e sensíveis às particularidades regionais e culturais.\n\nA articulação entre diferentes níveis de governo e setores da sociedade é essencial para o desenvolvimento de ações integradas que enfrentem a pobreza, a exclusão e a falta de acesso a serviços básicos. Além disso, a participação popular é um componente chave para garantir a legitimidade e eficácia das intervenções.\n\nProgramas que promovem educação, saúde, moradia e emprego contribuem diretamente para a redução das desigualdades, mas é igualmente importante monitorar seus resultados e ajustar estratégias conforme necessário.\n\nEm minha análise, a transparência na gestão e o combate à corrupção são fatores determinantes para o sucesso dessas políticas, assegurando que os recursos sejam aplicados de forma justa e eficiente.\n\nPortanto, combater a desigualdade social exige compromisso político, planejamento estratégico e envolvimento comunitário, buscando construir uma sociedade mais equitativa e justa para todos.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é um dos maiores desafios das sociedades contemporâneas segundo o texto?",
+      "alternativas": [
+        "Desigualdades sociais.",
+        "Excesso de recursos naturais.",
+        "Tecnologia avançada.",
+        "Isolamento cultural."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que é essencial para o desenvolvimento de ações integradas para enfrentar a desigualdade?",
+      "alternativas": [
+        "Articulação entre diferentes níveis de governo e setores da sociedade.",
+        "Isolamento dos setores sociais.",
+        "Foco exclusivo no setor privado.",
+        "Redução da participação popular."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quais áreas os programas devem promover para ajudar a reduzir as desigualdades?",
+      "alternativas": [
+        "Educação, saúde, moradia e emprego.",
+        "Entretenimento e lazer apenas.",
+        "Tecnologia e inovação somente.",
+        "Transportes e turismo exclusivamente."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que a transparência na gestão e o combate à corrupção são importantes?",
+      "alternativas": [
+        "Garantem que os recursos sejam aplicados de forma justa e eficiente.",
+        "São irrelevantes para as políticas públicas.",
+        "Aumentam a burocracia sem resultados.",
+        "Impedem a participação popular."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que é necessário para combater a desigualdade social, segundo o texto?",
+      "alternativas": [
+        "Compromisso político, planejamento estratégico e envolvimento comunitário.",
+        "Afastamento dos governos e redução de políticas sociais.",
+        "Foco apenas em desenvolvimento econômico.",
+        "Desconsiderar as particularidades regionais e culturais."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 57.61723765568952
+}

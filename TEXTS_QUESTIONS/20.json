@@ -1,0 +1,57 @@
+{
+  "titulo": "Epistemologia Contemporânea e Interdisciplinaridade",
+  "texto": "Considerando a evolução dos paradigmas epistemológicos, torna-se imperativo reavaliar os fundamentos metodológicos que orientam a produção do conhecimento científico contemporâneo. O paradigma positivista, com sua ênfase na objetividade e mensuração, tem sido questionado por abordagens interpretativas que valorizam a subjetividade e o contexto sociocultural.\n\nEm minha análise, observo que a interdisciplinaridade emerge como estratégia crucial para lidar com a complexidade dos fenômenos sociais e naturais, permitindo a integração de múltiplas perspectivas e a superação de reducionismos analíticos.\n\nA consolidação desse novo horizonte epistemológico implica não apenas uma revisão conceitual, mas também a reformulação das práticas educacionais e institucionais, com vistas a fomentar uma ciência mais reflexiva, inclusiva e responsiva às demandas contemporâneas.\n\n",
+  "perguntas": [
+    {
+      "pergunta": "O que o paradigma positivista enfatiza, segundo o texto?",
+      "alternativas": [
+        "Subjetividade e contexto sociocultural.",
+        "Objetividade e mensuração.",
+        "Interdisciplinaridade e inclusão.",
+        "Reflexão e crítica social."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Que abordagens questionam o paradigma positivista?",
+      "alternativas": [
+        "Abordagens interpretativas que valorizam a subjetividade e o contexto sociocultural.",
+        "Métodos quantitativos tradicionais.",
+        "Técnicas de mensuração estrita.",
+        "Práticas educacionais rígidas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual estratégia é considerada crucial para lidar com a complexidade dos fenômenos, segundo o texto?",
+      "alternativas": [
+        "Interdisciplinaridade.",
+        "Especialização estrita.",
+        "Reducionismo analítico.",
+        "Isolamento acadêmico."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que a consolidação do novo horizonte epistemológico implica?",
+      "alternativas": [
+        "Revisão conceitual e reformulação das práticas educacionais e institucionais.",
+        "Manutenção das práticas tradicionais.",
+        "Redução da diversidade de perspectivas.",
+        "Desconsideração das demandas contemporâneas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual é o objetivo de fomentar uma ciência mais reflexiva e inclusiva?",
+      "alternativas": [
+        "Atender às demandas contemporâneas.",
+        "Manter o conhecimento fragmentado.",
+        "Evitar a interdisciplinaridade.",
+        "Priorizar apenas o paradigma positivista."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 86.43398695097014
+}

@@ -1,0 +1,57 @@
+{
+  "titulo": "A Rotina na Rua e na Escola",
+  "texto": "O carro está na rua. Ele é vermelho e rápido. A rua está limpa e cheia de árvores. Os carros passam devagar perto da escola. A escola é grande e branca. As crianças estudam dentro da escola. Elas aprendem a ler e a escrever. A professora fala e explica. Os alunos escutam com atenção. O recreio é um momento de alegria. Eles correm e brincam no pátio. O céu está azul e limpo. O vento sopra suavemente. As folhas das árvores balançam. A cidade tem muitas casas e lojas. O mercado vende frutas e verduras frescas. As pessoas fazem compras e conversam. O dia passa devagar e tranquilo. À noite, as luzes acendem e as ruas ficam silenciosas. As famílias se reúnem para jantar e descansar. Amanhã será um novo dia para trabalhar e estudar.",
+  "perguntas": [
+    {
+      "pergunta": "Qual a cor do carro mencionado no texto?",
+      "alternativas": [
+        "Azul",
+        "Verde",
+        "Vermelho",
+        "Preto"
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Como é a escola descrita no texto?",
+      "alternativas": [
+        "Pequena e vermelha",
+        "Grande e branca",
+        "Moderna e azul",
+        "Antiga e amarela"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que as crianças fazem durante o recreio?",
+      "alternativas": [
+        "Estudam na sala de aula",
+        "Correm e brincam no pátio",
+        "Fazem compras no mercado",
+        "Escutam a professora"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Como está o céu durante o dia, segundo o texto?",
+      "alternativas": [
+        "Nublado e chuvoso",
+        "Azul e limpo",
+        "Escuro e tempestuoso",
+        "Cinza e ventoso"
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que acontece à noite na cidade?",
+      "alternativas": [
+        "As ruas ficam movimentadas e barulhentas",
+        "As luzes acendem e as ruas ficam silenciosas",
+        "O mercado vende frutas e verduras frescas",
+        "As crianças brincam no pátio"
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 45.75502199809683
+}

@@ -1,0 +1,57 @@
+{
+  "titulo": "O Sol e o Dia",
+  "texto": "O sol é uma estrela que ilumina o nosso dia. Quando o sol está no céu, o dia fica claro. As pessoas acordam, saem de casa e fazem suas tarefas. As plantas crescem porque precisam da luz do sol. O sol também aquece a Terra, fazendo com que o clima seja agradável. Às vezes, o sol fica atrás das nuvens e o dia fica nublado. Quando isso acontece, pode até chover. Depois que o sol se põe, a noite chega e fica escuro. As estrelas aparecem e o céu fica bonito. O sol é importante para a vida na Terra. Sem ele, não teríamos calor nem luz. Por isso, agradecemos ao sol todos os dias.",
+  "perguntas": [
+    {
+      "pergunta": "O que o sol faz durante o dia?",
+      "alternativas": [
+        "Ilumina e aquece a Terra.",
+        "Apaga as estrelas.",
+        "Faz chover.",
+        "Esconde as nuvens."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que as plantas crescem segundo o texto?",
+      "alternativas": [
+        "Porque recebem água das nuvens.",
+        "Porque precisam da luz do sol.",
+        "Porque a noite é escura.",
+        "Porque o sol se põe."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que acontece quando o sol fica atrás das nuvens?",
+      "alternativas": [
+        "O dia fica nublado e pode chover.",
+        "O dia fica mais claro.",
+        "O sol aparece mais forte.",
+        "As estrelas aparecem."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "O que acontece depois que o sol se põe?",
+      "alternativas": [
+        "O dia fica claro.",
+        "A noite chega e o céu fica escuro.",
+        "As plantas crescem.",
+        "O sol volta a aparecer."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que o sol é importante para a vida na Terra?",
+      "alternativas": [
+        "Porque sem ele não teríamos calor nem luz.",
+        "Porque ele esconde as estrelas.",
+        "Porque ele faz chover sempre.",
+        "Porque ele fica atrás das nuvens."
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 7.451426217628961
+}

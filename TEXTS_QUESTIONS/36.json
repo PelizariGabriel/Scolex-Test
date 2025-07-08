@@ -1,0 +1,57 @@
+{
+  "titulo": "Frutas que Eu Gosto",
+  "texto": "Eu gosto muito de frutas. Minha fruta favorita é a maçã. Ela é doce e crocante. Também gosto de banana, que é fácil de comer. As frutas são importantes para a saúde porque têm vitaminas. Eu como frutas no café da manhã e no lanche. Minha mãe sempre compra frutas frescas no mercado. Às vezes, eu faço suco de laranja, que é gostoso e refrescante. No verão, eu como melancia, que ajuda a matar a sede. Comer frutas todos os dias é bom para o corpo e ajuda a manter a energia. Eu recomendo que todo mundo coma frutas.",
+  "perguntas": [
+    {
+      "pergunta": "Qual é a fruta favorita do narrador?",
+      "alternativas": [
+        "Maçã",
+        "Banana",
+        "Melancia",
+        "Laranja"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Por que as frutas são importantes para a saúde?",
+      "alternativas": [
+        "Porque têm vitaminas",
+        "Porque são doces",
+        "Porque são fáceis de comer",
+        "Porque fazem suco"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Quando o narrador costuma comer frutas?",
+      "alternativas": [
+        "No café da manhã e no lanche",
+        "Só no almoço",
+        "Só no jantar",
+        "Durante a noite"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Qual fruta o narrador come no verão para matar a sede?",
+      "alternativas": [
+        "Melancia",
+        "Maçã",
+        "Banana",
+        "Laranja"
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Onde a mãe do narrador compra frutas frescas?",
+      "alternativas": [
+        "No mercado",
+        "Na feira",
+        "Na escola",
+        "No parque"
+      ],
+      "resposta_correta": 0
+    }
+  ],
+  "scolex_level": 12.1740654321593
+}

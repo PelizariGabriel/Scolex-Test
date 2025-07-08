@@ -1,0 +1,57 @@
+{
+  "titulo": "Meu Cachorro",
+  "texto": "Eu tenho um cachorro. Ele é pequeno e tem pelo branco. Eu gosto muito dele. Ele gosta de brincar no parque. Quando eu chego em casa, ele corre para mim e abana o rabo. Às vezes, eu dou um biscoito para ele. Ele come rápido e fica feliz. Eu falo com ele e ele parece entender. Meu cachorro é meu amigo. Eu cuido dele todos os dias. Eu dou comida e água. Também levo ele para passear. O parque é o lugar que ele mais gosta. Ele corre, pula e brinca com outros cachorros. Às vezes, ele fica cansado e deita na grama. Eu fico feliz quando ele está feliz. Ter um cachorro é bom porque ele me faz companhia. Eu não me sinto sozinho. Eu amo meu cachorro.",
+  "perguntas": [
+    {
+      "pergunta": "Como é o cachorro descrito no texto?",
+      "alternativas": [
+        "Grande e preto.",
+        "Pequeno e com pelo branco.",
+        "Médio e marrom.",
+        "Grande e branco."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o cachorro gosta de fazer no parque?",
+      "alternativas": [
+        "Dormir na grama.",
+        "Correr, pular e brincar com outros cachorros.",
+        "Ficar sozinho.",
+        "Comer biscoitos."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o dono faz quando chega em casa?",
+      "alternativas": [
+        "Ignora o cachorro.",
+        "O cachorro corre para ele e abana o rabo.",
+        "Leva o cachorro para passear imediatamente.",
+        "Dá comida para o cachorro."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Por que o dono gosta de ter um cachorro?",
+      "alternativas": [
+        "Porque ele é um animal que não precisa de cuidados.",
+        "Porque o cachorro o faz companhia e ele não se sente sozinho.",
+        "Porque o cachorro é muito grande e protege a casa.",
+        "Porque o cachorro é silencioso."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que o dono faz para cuidar do cachorro?",
+      "alternativas": [
+        "Só dá comida.",
+        "Dá comida, água e leva para passear.",
+        "Só leva para passear.",
+        "Deixa o cachorro sozinho no parque."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 10.51870775822368
+}

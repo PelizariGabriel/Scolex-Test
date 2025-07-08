@@ -1,0 +1,57 @@
+{
+  "titulo": "Relato de um sonho estranho",
+  "texto": "Na noite passada, tive um sonho curioso que me deixou pensativo ao acordar. Estava em um vasto campo aberto, sob um céu carregado de nuvens cinzentas. Sentia uma mistura de ânsia e serenidade, como se algo importante estivesse para acontecer, mas não soubesse o quê.\n\nCaminhei lentamente, observando as árvores que pareciam sussurrar segredos antigos. De repente, uma figura indistinta apareceu ao longe, envolta em uma luz tênue. Tentei me aproximar, mas meus passos pareciam cada vez mais lentos, como se estivesse preso em um tempo dilatado.\n\nNo sonho, não havia palavras, apenas sensações que se misturavam com imagens vagas. Ao despertar, ficou a impressão de que aquela experiência carregava um significado oculto, talvez um convite para olhar para dentro de mim mesmo e enfrentar medos ou desejos.\n\nEsse sonho estranho permanece como um enigma, uma lembrança fugaz que inspira reflexão e curiosidade sobre os mistérios da mente.\n\n",
+  "perguntas": [
+    {
+      "pergunta": "Qual foi o cenário principal do sonho descrito no texto?",
+      "alternativas": [
+        "Uma cidade movimentada.",
+        "Um vasto campo aberto sob um céu carregado de nuvens cinzentas.",
+        "Uma casa antiga cheia de sombras.",
+        "Uma floresta densa com animais selvagens."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Que sentimento o autor experimentou durante o sonho?",
+      "alternativas": [
+        "Apenas alegria e euforia.",
+        "Mistura de ânsia e serenidade.",
+        "Medo extremo e pânico.",
+        "Indiferença total ao ambiente."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "O que dificultava a aproximação do autor à figura no sonho?",
+      "alternativas": [
+        "A figura desapareceu imediatamente.",
+        "Seus passos pareciam cada vez mais lentos, como se preso em um tempo dilatado.",
+        "Ele estava muito cansado para caminhar.",
+        "Havia obstáculos físicos como muros e rios."
+      ],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Segundo o texto, o que o sonho poderia simbolizar?",
+      "alternativas": [
+        "Um convite para olhar para dentro de si mesmo e enfrentar medos ou desejos.",
+        "Uma previsão de um evento futuro específico.",
+        "Um simples reflexo do cansaço do dia anterior.",
+        "Uma mensagem literal e clara com instruções precisas."
+      ],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como o autor descreve a comunicação no sonho?",
+      "alternativas": [
+        "Cheia de diálogos intensos e palavras claras.",
+        "Sem palavras, apenas sensações e imagens vagas.",
+        "Com música alta e sons estrondosos.",
+        "Através de mensagens escritas em livros."
+      ],
+      "resposta_correta": 1
+    }
+  ],
+  "scolex_level": 61.798901658485136
+}
