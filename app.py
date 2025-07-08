@@ -46,7 +46,7 @@ def salvar_em_google_sheets(nome, serie, resultado, opiniao):
     client = gspread.authorize(creds)
 
     # Substitua pelo seu ID real da planilha
-    SPREADSHEET_ID = "SEU_SPREADSHEET_ID_AQUI"
+    SPREADSHEET_ID = "1NSoptlo97kJUmQ1ANM0E0e566hTvu6xDT4-nZ2Pi-T4"
     sheet = client.open_by_key(SPREADSHEET_ID).sheet1
 
     from datetime import datetime
