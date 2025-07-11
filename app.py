@@ -50,7 +50,7 @@ def main():
         nome = st.text_input("Qual seu nome completo?")
         serie = st.selectbox(
             "Qual sua série escolar?",
-            options=[str(i) for i in range(0, 13)] + ["Graduado"]
+            options=[str(i) for i in range(1, 13)] + ["Graduado"]
         )
 
         if st.button("Começar teste"):
