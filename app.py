@@ -4,23 +4,10 @@ import streamlit as st
 import sys
 import csv
 from datetime import datetime
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds_dict = st.secrets["gcp_service_account"]
-creds = ServiceAccountCredentials.from_json_keyfile_dict(dict(creds_dict), scope)
-client = gspread.authorize(creds)
-sheet = client.open_by_key(SPREADSHEET_ID).sheet1
+import io
 
 json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
-
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds_dict = st.secrets["gcp_service_account"]
-creds = ServiceAccountCredentials.from_json_keyfile_dict(dict(creds_dict), scope)
-client = gspread.authorize(creds)
-sheet = client.open_by_key(SPREADSHEET_ID).sheet1
 
 @st.cache_data
 def carregar_textos():
@@ -52,19 +39,6 @@ def salvar_resultado(nome, serie, resultado, opiniao):
             writer.writerow(["data_hora", "nome", "serie_escolar", "resultado_scolex", "opiniao"])
         writer.writerow([datetime.now().isoformat(), nome, serie, resultado, opiniao])
 
-def salvar_em_google_sheets(nome, serie, resultado, opiniao):
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
-    client = gspread.authorize(creds)
-
-    # Substitua pelo seu ID real da planilha
-    SPREADSHEET_ID = "1NSoptlo97kJUmQ1ANM0E0e566hTvu6xDT4-nZ2Pi-T4"
-    sheet = client.open_by_key(SPREADSHEET_ID).sheet1
-
-    from datetime import datetime
-    data = [datetime.now().isoformat(), nome, serie, resultado, opiniao]
-    sheet.append_row(data)
-
 def rerun():
     sys.exit()
 
@@ -89,17 +63,17 @@ def main():
 
             # Define ponto de entrada inicial baseado na série escolar
             if serie == "Graduado":
-                st.session_state.scolex_atual = 60
+                st.session_state.scolex_atual = 70
             else:
                 serie_int = int(serie)
                 if 0 <= serie_int <= 3:
-                    st.session_state.scolex_atual = 20
-                elif 4 <= serie_int <= 6:
                     st.session_state.scolex_atual = 30
-                elif 7 <= serie_int <= 9:
+                elif 4 <= serie_int <= 6:
                     st.session_state.scolex_atual = 40
-                elif 10 <= serie_int <= 12:
+                elif 7 <= serie_int <= 9:
                     st.session_state.scolex_atual = 50
+                elif 10 <= serie_int <= 12:
+                    st.session_state.scolex_atual = 60
             st.rerun()
         return  # Aguarda início do teste
 
@@ -120,15 +94,31 @@ def main():
 
         if "opiniao" not in st.session_state:
             opiniao = st.text_area("✍️ Dê sua opinião sobre o teste (dificuldade, resultado, formato de aplicação, etc...)")
-            if st.button("Salvar opinião e finalizar"):
-                salvar_em_google_sheets(
-                    nome=st.session_state.nome,
-                    serie=st.session_state.serie_escolar,
-                    resultado=st.session_state.resultado_final,
-                    opiniao=opiniao
-                )
+            if st.button("Salvar resultado localmente"):
+
+                # Monta os dados individuais em CSV (como string)
+                import io
+                output = io.StringIO()
+                writer = csv.writer(output)
+                writer.writerow(["data_hora", "nome", "serie_escolar", "resultado_scolex", "opiniao"])
+                writer.writerow([
+                    datetime.now().isoformat(),
+                    st.session_state.nome,
+                    st.session_state.serie_escolar,
+                    st.session_state.resultado_final,
+                    opiniao
+                ])
+
                 st.session_state.opiniao = opiniao
-                st.success("📁 Obrigado! Sua opinião foi registrada.")
+                st.success("📁 Resultado gerado.")
+
+                # Botão para baixar o CSV individual
+                st.download_button(
+                    label="⬇️ Baixar meu resultado (.csv)",
+                    data=output.getvalue(),
+                    file_name=f"resultado_{st.session_state.nome.replace(' ', '_')}.csv",
+                    mime="text/csv"
+                )
             return
 
         if st.button("🔁 Reiniciar teste"):
@@ -177,17 +167,34 @@ def main():
 
         st.markdown(f"### 🎯 Você acertou {acertos} de {total} ({percentual:.1f}%)")
 
+        min_scolex = min([t["scolex_level"] for t in st.session_state.textos])
+
         if percentual >= 80:
             st.success("✅ Desempenho bom!")
-            if not st.session_state.primeira_rodada:
+
+            # Atualiza maior nível com bom desempenho
+            if (
+                st.session_state.ultimo_scolex_bom is None
+                or texto["scolex_level"] > st.session_state.ultimo_scolex_bom
+            ):
                 st.session_state.ultimo_scolex_bom = texto["scolex_level"]
-            if st.session_state.subindo:
+
+            # Se o texto atual for o mais difícil disponível, finaliza automaticamente
+            niveis_disponiveis = [t["scolex_level"] for t in st.session_state.textos]
+            max_nivel_disponivel = max(niveis_disponiveis)
+
+            if texto["scolex_level"] >= max_nivel_disponivel:
+                st.session_state.resultado_final = texto["scolex_level"]
+                st.session_state.finalizado = True
+            elif st.session_state.subindo:
                 st.session_state.scolex_atual += 5
             else:
                 st.session_state.resultado_final = texto["scolex_level"]
                 st.session_state.finalizado = True
+
         else:
             st.warning("⚠️ Desempenho abaixo do esperado.")
+
             if st.session_state.subindo:
                 if not st.session_state.primeira_rodada:
                     if st.session_state.ultimo_scolex_bom is not None:
@@ -196,10 +203,20 @@ def main():
                         st.session_state.resultado_final = texto["scolex_level"]
                     st.session_state.finalizado = True
                 else:
-                    st.session_state.scolex_atual -= 5
-                    st.session_state.subindo = False
+                    # Evita passar abaixo do nível mínimo
+                    if st.session_state.scolex_atual - 5 >= min_scolex:
+                        st.session_state.scolex_atual -= 5
+                        st.session_state.subindo = False
+                    else:
+                        # Já no nível mais baixo e ainda com desempenho ruim: finaliza o teste
+                        st.session_state.resultado_final = st.session_state.scolex_atual
+                        st.session_state.finalizado = True
             else:
-                st.session_state.scolex_atual -= 5
+                if st.session_state.scolex_atual - 5 >= min_scolex:
+                    st.session_state.scolex_atual -= 5
+                else:
+                    st.session_state.resultado_final = st.session_state.scolex_atual
+                    st.session_state.finalizado = True
 
         st.session_state.primeira_rodada = False
         st.session_state.respostas_enviadas = True
