@@ -7,13 +7,17 @@ from datetime import datetime
 import base64
 import random
 from pathlib import Path
+from PIL import Image
 
 # ============================
 # Funções utilitárias
 # ============================
-logo_path = Path(__file__).parent / "scolados_logo.png"
+# Caminho da logo
+logo_path = os.path.join(os.path.dirname(__file__), "scolados_logo.png")
+
+# Converter para base64
 with open(logo_path, "rb") as f:
-    logo_base64 = base64.b64encode(f.read()).decode("utf-8")
+    logo_base64 = base64.b64encode(f.read()).decode()
 
 def rerun():
     sys.exit()
