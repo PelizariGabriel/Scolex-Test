@@ -22,14 +22,65 @@ json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
 
 # ============================
-# Header + introdução (Streamlit normal)
+# CSS para barra e gradiente
 # ============================
-st.image("https://raw.githubusercontent.com/PelizariGabriel/Scolex-Test/5cab7cc6b04920291b868be42e4ba29e14cc2b30/scolados_logo.png", width=100)
-st.markdown("<h1 style='color:#2F97A1;'>Scolex - Teste Adaptativo de Leitura</h1>", unsafe_allow_html=True)
 st.markdown(
-    "<p>Bem-vindo! Este é um teste adaptativo que avalia seu nível de compreensão de leitura.<br>"
-    "Ele começa no nível certo para sua série e muda de acordo com suas respostas.<br>"
-    "Este teste pode levar entre 5 e 15 minutos.</p>",
+    """
+    <style>
+    .header-bar {
+        background-color: white;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #e0e0e0;
+    }
+    .header-bar img {
+        height: 50px;
+        margin-right: 15px;
+    }
+    .header-bar h1 {
+        color: #2F97A1;
+        font-size: 1.8rem;
+        margin: 0;
+        font-weight: bold;
+    }
+    .intro-box {
+        background: linear-gradient(to right, #226DAA, #2F97A1);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# ============================
+# Header
+# ============================
+st.markdown(
+    """
+    <div class="header-bar">
+        <img src="https://raw.githubusercontent.com/PelizariGabriel/Scolex-Test/5cab7cc6b04920291b868be42e4ba29e14cc2b30/scolados_logo.png" alt="Logo">
+        <h1>Scolex - Teste Adaptativo de Leitura</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# ============================
+# Caixa de apresentação com gradiente
+# ============================
+st.markdown(
+    """
+    <div class="intro-box">
+        Bem-vindo! Este é um teste adaptativo que avalia seu nível de compreensão de leitura.<br>
+        Ele começa no nível certo para sua série e muda de acordo com suas respostas.<br>
+        Este teste pode levar entre 5 e 15 minutos.
+    </div>
+    """,
     unsafe_allow_html=True
 )
 
@@ -70,14 +121,9 @@ def salvar_resultado(nome, serie, resultado, opiniao):
 # Função principal
 # ============================
 def main():
-    # Container do teste com scroll e borda
-    st.markdown(
-        '<div style="border:2px solid #2F97A1; border-radius:10px; padding:20px; max-height:70vh; overflow-y:auto; background-color:#f9f9f9;">',
-        unsafe_allow_html=True
-    )
-
     # ======== Coleta nome e série escolar ========
     if "nome" not in st.session_state:
+        st.markdown('<div class="teste-box">', unsafe_allow_html=True)
         nome = st.text_input("Qual seu nome completo?")
         serie = st.selectbox(
             "Qual sua série escolar?",
@@ -117,6 +163,9 @@ def main():
         st.session_state.primeira_rodada = True
         st.session_state.respostas_enviadas = False
 
+    # ======== Container do teste ========
+    st.markdown('<div class="teste-box">', unsafe_allow_html=True)
+
     # ======== Resultado final e coleta de opinião ========
     if st.session_state.finalizado:
         st.success(f"✅ Seu nível Scolex é: {st.session_state.resultado_final:.2f}")
@@ -137,13 +186,14 @@ def main():
                     file_name=f"resultado_{st.session_state.nome.replace(' ', '_')}.csv",
                     mime="text/csv"
                 )
+            st.markdown('</div>', unsafe_allow_html=True)
             return
         if st.button("🔁 Reiniciar teste"):
             for key in list(st.session_state.keys()):
                 st.session_state.pop(key)
             rerun()
-        st.markdown('</div>', unsafe_allow_html=True)
-        return
+            st.markdown('</div>', unsafe_allow_html=True)
+            return
 
     # ======== Seleciona texto atual ========
     if "texto_atual" not in st.session_state:
