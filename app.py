@@ -9,22 +9,14 @@ import random
 from pathlib import Path
 from PIL import Image
 
-
-
 # ============================
 # Funções utilitárias
 # ============================
-# Caminho da logo — garante que funciona no deploy e local
-logo_path = Path(__file__).parent / "scolados_logo.png"
-
-if not logo_path.exists():
-    st.error("❌ Arquivo da logo 'scolados_logo.png' não encontrado.")
-else:
-    with open(logo_path, "rb") as f:
-        logo_base64 = base64.b64encode(f.read()).decode()
-
 def rerun():
-    sys.exit()
+    """Reinicia a sessão do Streamlit"""
+    for key in st.session_state.keys():
+        del st.session_state[key]
+    st.experimental_rerun()
 
 # ============================
 # Configurações iniciais
@@ -36,75 +28,87 @@ resposta_arquivo = "resultados_usuarios.csv"
 # CSS + HEADER FIXO
 # ============================
 st.markdown(
-    f"""
+    """
     <style>
-        .block-container {{
-            padding: 0;
-            max-width: 100% !important;
-            background-color: white;
-        }}
-        body {{
-            background-color: white;
-            margin: 0;
-        }}
-        .top-bar {{
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 999;
-            background: white;
-            color: #2F97A1;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid #e0e0e0;
-            height: 60px;
-        }}
-        .top-bar img {{
-            height: 40px;
-            margin-right: 15px;
-        }}
-        .top-bar h1 {{
-            font-size: 1.5rem;
-            margin: 0;
-            font-weight: bold;
-            color: #2F97A1;
-        }}
-        .intro-bar {{
-            position: fixed;
-            top: 60px;
-            left: 0;
-            right: 0;
-            z-index: 998;
-            background: linear-gradient(to right, #226DAA, #2F97A1);
-            color: white;
-            padding: 8px 20px;
-            font-size: 1rem;
-            font-weight: 500;
-            height: 105px;
-            display: flex;
-            align-items: center;
-        }}
-        .content-container {{
-            padding-top: 175px;
-            background-color: white;
-        }}
-        .teste-box {{
-            border: 2px solid #2F97A1;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: #f9f9f9;
-            max-height: calc(100vh - 180px);
-            overflow-y: auto;
-        }}
+    /* Remove padding padrão do Streamlit */
+    .block-container {
+        padding: 0;
+        max-width: 100% !important;
+        background-color: white;
+    }
+    body {
+        background-color: white;
+        margin: 0;
+    }
+
+    /* Header fixo */
+    .top-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: white;
+        color: #2F97A1;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #e0e0e0;
+        height: 60px;
+    }
+    .top-bar img {
+        height: 40px;
+        margin-right: 15px;
+    }
+    .top-bar h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        font-weight: bold;
+        color: #2F97A1;
+    }
+
+    /* Barra introdutória fixa */
+    .intro-bar {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 998;
+        background: linear-gradient(to right, #226DAA, #2F97A1);
+        color: white;
+        padding: 8px 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        height: 105px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Container do conteúdo */
+    .content-container {
+        padding-top: 175px; /* espaço para top-bar + intro-bar */
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+    }
+
+    /* Box do teste */
+    .teste-box {
+        border: 2px solid #2F97A1;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #f9f9f9;
+        max-height: calc(100vh - 180px);
+        overflow-y: auto;
+    }
     </style>
 
     <div class="top-bar">
         <img src="https://raw.githubusercontent.com/PelizariGabriel/Scolex-Test/5cab7cc6b04920291b868be42e4ba29e14cc2b30/scolados_logo.png" alt="Logo">
         <h1>Scolex - Teste Adaptativo de Leitura</h1>
     </div>
+
     <div class="intro-bar">
         Bem-vindo! Este é um teste adaptativo que avalia seu nível de compreensão de leitura.<br>
         Ele começa no nível certo para sua série e muda de acordo com suas respostas.<br>
