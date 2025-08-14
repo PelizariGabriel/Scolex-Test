@@ -12,12 +12,14 @@ from PIL import Image
 # ============================
 # Funções utilitárias
 # ============================
-# Caminho da logo
-logo_path = os.path.join(os.path.dirname(__file__), "scolados_logo.png")
+# Caminho da logo — garante que funciona no deploy e local
+logo_path = Path(__file__).parent / "scolados_logo.png"
 
-# Converter para base64
-with open(logo_path, "rb") as f:
-    logo_base64 = base64.b64encode(f.read()).decode()
+if not logo_path.exists():
+    st.error("❌ Arquivo da logo 'scolados_logo.png' não encontrado.")
+else:
+    with open(logo_path, "rb") as f:
+        logo_base64 = base64.b64encode(f.read()).decode()
 
 def rerun():
     sys.exit()
@@ -29,7 +31,7 @@ json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
 
 # ============================
-# CSS
+# CSS + HEADER FIXO
 # ============================
 st.markdown(
     f"""
@@ -39,10 +41,15 @@ st.markdown(
             max-width: 100% !important;
             background-color: white;
         }}
-        body {{ background-color: white; margin: 0; }}
+        body {{
+            background-color: white;
+            margin: 0;
+        }}
         .top-bar {{
             position: fixed;
-            top: 0; left: 0; right: 0;
+            top: 0;
+            left: 0;
+            right: 0;
             z-index: 999;
             background: white;
             color: #2F97A1;
@@ -52,12 +59,21 @@ st.markdown(
             border-bottom: 2px solid #e0e0e0;
             height: 60px;
         }}
-        .top-bar img {{ height: 40px; margin-right: 15px; }}
-        .top-bar h1 {{ font-size: 1.5rem; margin: 0; font-weight: bold; color: #2F97A1; }}
+        .top-bar img {{
+            height: 40px;
+            margin-right: 15px;
+        }}
+        .top-bar h1 {{
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: bold;
+            color: #2F97A1;
+        }}
         .intro-bar {{
             position: fixed;
             top: 60px;
-            left: 0; right: 0;
+            left: 0;
+            right: 0;
             z-index: 998;
             background: linear-gradient(to right, #226DAA, #2F97A1);
             color: white;
@@ -78,10 +94,11 @@ st.markdown(
             padding: 20px;
             margin-bottom: 20px;
             background-color: #f9f9f9;
-            max-height: calc(100vh - 180px); /* altura da tela menos barras */
+            max-height: calc(100vh - 180px);
             overflow-y: auto;
         }}
     </style>
+
     <div class="top-bar">
         <img src="data:image/png;base64,{logo_base64}" alt="Logo">
         <h1>Scolex - Teste Adaptativo de Leitura</h1>
