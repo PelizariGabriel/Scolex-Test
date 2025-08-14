@@ -9,6 +9,8 @@ import random
 from pathlib import Path
 from PIL import Image
 
+
+
 # ============================
 # Funções utilitárias
 # ============================
@@ -85,7 +87,7 @@ st.markdown(
             align-items: center;
         }}
         .content-container {{
-            padding-top: 175px; /* espaço para top-bar + intro-bar */
+            padding-top: 175px;
             background-color: white;
         }}
         .teste-box {{
@@ -100,7 +102,7 @@ st.markdown(
     </style>
 
     <div class="top-bar">
-        <img src="data:image/png;base64,{logo_base64}" alt="Logo">
+        <img src="https://raw.githubusercontent.com/PelizariGabriel/Scolex-Test/5cab7cc6b04920291b868be42e4ba29e14cc2b30/scolados_logo.png" alt="Logo">
         <h1>Scolex - Teste Adaptativo de Leitura</h1>
     </div>
     <div class="intro-bar">
