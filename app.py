@@ -6,14 +6,14 @@ import csv
 from datetime import datetime
 import base64
 import random
+from pathlib import Path
 
 # ============================
 # Funções utilitárias
 # ============================
-def get_base64_of_bin_file(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+logo_path = Path(__file__).parent / "scolados_logo.png"
+with open(logo_path, "rb") as f:
+    logo_base64 = base64.b64encode(f.read()).decode("utf-8")
 
 def rerun():
     sys.exit()
@@ -21,7 +21,6 @@ def rerun():
 # ============================
 # Configurações iniciais
 # ============================
-logo_base64 = get_base64_of_bin_file("scolados_logo.png")
 json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
 
