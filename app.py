@@ -125,21 +125,37 @@ def main():
     if "nome" not in st.session_state:
         st.markdown('<div class="teste-box">', unsafe_allow_html=True)
         nome = st.text_input("Qual seu nome completo?")
+
+        # Lista de opções de série
+        serie_options = [
+            "1° ano", "2° ano", "3° ano", "4° ano", "5° ano", "6° ano",
+            "7° ano", "8° ano", "9° ano", "1ª Série", "2ª Série", "3ª Série", "Graduado"
+        ]
         serie = st.selectbox(
             "Qual sua série escolar?",
-            options=[str(i) for i in range(1, 13)] + ["Graduado"]
+            options=serie_options
         )
+
         if st.button("Começar teste"):
             if nome.strip() == "":
                 st.warning("⚠️ Por favor, insira seu nome.")
                 return
+
             st.session_state.nome = nome
             st.session_state.serie_escolar = serie
+
             # Define ponto de entrada inicial
             if serie == "Graduado":
                 st.session_state.scolex_atual = 70
             else:
-                serie_int = int(serie)
+                # Mapeia a série textual para número
+                serie_map = {
+                    "1° ano": 1, "2° ano": 2, "3° ano": 3,
+                    "4° ano": 4, "5° ano": 5, "6° ano": 6,
+                    "7° ano": 7, "8° ano": 8, "9° ano": 9,
+                    "1ª Série": 10, "2ª Série": 11, "3ª Série": 12
+                }
+                serie_int = serie_map[serie]
                 if 0 <= serie_int <= 3:
                     st.session_state.scolex_atual = 30
                 elif 4 <= serie_int <= 6:
@@ -148,6 +164,7 @@ def main():
                     st.session_state.scolex_atual = 50
                 elif 10 <= serie_int <= 12:
                     st.session_state.scolex_atual = 60
+
             st.rerun()
         st.markdown('</div>', unsafe_allow_html=True)
         return
