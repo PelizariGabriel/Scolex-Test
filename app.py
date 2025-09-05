@@ -1,7 +1,6 @@
 import os
 import json
 import streamlit as st
-import sys
 import csv
 from datetime import datetime
 import random
@@ -10,10 +9,10 @@ import random
 # Funções utilitárias
 # ============================
 def rerun():
-    """Reinicia a sessão do Streamlit"""
-    for key in st.session_state.keys():
+    """Reinicia a sessão do Streamlit (limpa tudo)"""
+    for key in list(st.session_state.keys()):
         del st.session_state[key]
-    st.experimental_rerun()
+    st.rerun()
 
 # ============================
 # Configurações iniciais
@@ -22,7 +21,7 @@ json_folder = "TEXTS_QUESTIONS"
 resposta_arquivo = "resultados_usuarios.csv"
 
 # ============================
-# CSS para barra e gradiente
+# CSS para barra, gradiente e cards
 # ============================
 st.markdown(
     """
@@ -51,6 +50,21 @@ st.markdown(
         border-radius: 10px;
         margin-top: 10px;
         font-size: 1rem;
+    }
+    .card-button-gradient {
+        background: linear-gradient(to right, #226DAA, #2F97A1);
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 5px;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #2F97A1;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+    .card-button-gradient:hover {
+        transform: scale(1.05);
     }
     </style>
     """,
@@ -126,15 +140,11 @@ def main():
         st.markdown('<div class="teste-box">', unsafe_allow_html=True)
         nome = st.text_input("Qual seu nome completo?")
 
-        # Lista de opções de série
         serie_options = [
             "1° ano", "2° ano", "3° ano", "4° ano", "5° ano", "6° ano",
             "7° ano", "8° ano", "9° ano", "1ª Série", "2ª Série", "3ª Série", "Graduado"
         ]
-        serie = st.selectbox(
-            "Qual sua série escolar?",
-            options=serie_options
-        )
+        serie = st.selectbox("Qual sua série escolar?", options=serie_options)
 
         if st.button("Começar teste"):
             if nome.strip() == "":
@@ -144,11 +154,9 @@ def main():
             st.session_state.nome = nome
             st.session_state.serie_escolar = serie
 
-            # Define ponto de entrada inicial
             if serie == "Graduado":
                 st.session_state.scolex_atual = 70
             else:
-                # Mapeia a série textual para número
                 serie_map = {
                     "1° ano": 1, "2° ano": 2, "3° ano": 3,
                     "4° ano": 4, "5° ano": 5, "6° ano": 6,
@@ -164,7 +172,6 @@ def main():
                     st.session_state.scolex_atual = 50
                 elif 10 <= serie_int <= 12:
                     st.session_state.scolex_atual = 60
-
             st.rerun()
         st.markdown('</div>', unsafe_allow_html=True)
         return
@@ -180,7 +187,6 @@ def main():
         st.session_state.primeira_rodada = True
         st.session_state.respostas_enviadas = False
 
-    # ======== Container do teste ========
     st.markdown('<div class="teste-box">', unsafe_allow_html=True)
 
     # ======== Resultado final e coleta de opinião ========
@@ -206,8 +212,6 @@ def main():
             st.markdown('</div>', unsafe_allow_html=True)
             return
         if st.button("🔁 Reiniciar teste"):
-            for key in list(st.session_state.keys()):
-                st.session_state.pop(key)
             rerun()
             st.markdown('</div>', unsafe_allow_html=True)
             return
@@ -232,36 +236,58 @@ def main():
     st.markdown(texto["texto"])
     st.markdown("### Perguntas")
 
-    respostas = []
+    # Embaralhamento das perguntas
+    if "shuffled_questions" not in st.session_state:
+        shuffled_questions = []
+        for pergunta in texto["perguntas"]:
+            orig_options = pergunta["alternativas"]
+            pair_list = list(enumerate(orig_options))
+            random.shuffle(pair_list)
+            options = []
+            correct_option_value = None
+            for orig_idx, label in pair_list:
+                val = f"{orig_idx}||{label}"
+                options.append(val)
+                if orig_idx == pergunta["resposta_correta"]:
+                    correct_option_value = val
+            shuffled_questions.append({
+                "pergunta": pergunta["pergunta"],
+                "options": options,
+                "correct_value": correct_option_value
+            })
+        st.session_state.shuffled_questions = shuffled_questions
 
-    # Embaralha alternativas para cada pergunta
-    shuffled_questions = []
-    for pergunta in texto["perguntas"]:
-        alternativas = list(enumerate(pergunta["alternativas"]))
-        random.shuffle(alternativas)
-        shuffled_questions.append({
-            "pergunta": pergunta["pergunta"],
-            "alternativas": alternativas,
-            "resposta_correta": next(i for i, alt in alternativas if i == pergunta["resposta_correta"])
-        })
+    # ============================
+    # Exibe perguntas como cards com gradiente
+    # ============================
+    for i, pergunta in enumerate(st.session_state.shuffled_questions):
+        st.markdown(f"**{i+1}. {pergunta['pergunta']}**")
+        cols = st.columns(len(pergunta["options"]))
+        for j, opt in enumerate(pergunta["options"]):
+            label = opt.split("||", 1)[1]
+            # Botão com gradiente
+            if cols[j].button(label, key=f"card_{i}_{j}"):
+                st.session_state[f"q{i}"] = opt
+                st.rerun()
+        selected_card = st.session_state.get(f"q{i}", None)
+        if selected_card:
+            st.markdown(f"✅ Selecionado: **{selected_card.split('||')[1]}**")
+        st.markdown("---")
 
-    for i, pergunta in enumerate(shuffled_questions):
-        resposta = st.radio(
-            f"{i+1}. {pergunta['pergunta']}",
-            options=pergunta["alternativas"],
-            format_func=lambda x: x[1],
-            key=f"q{i}"
-        )
-        respostas.append(resposta[0])
-
+    # ============================
+    # Botão enviar respostas
+    # ============================
     if st.button("Enviar respostas"):
-        acertos = sum([1 for i, p in enumerate(shuffled_questions) if respostas[i] == p["resposta_correta"]])
-        total = len(shuffled_questions)
-        percentual = (acertos / total) * 100
-
+        acertos = 0
+        total = len(st.session_state.shuffled_questions)
+        for i, pergunta in enumerate(st.session_state.shuffled_questions):
+            chosen = st.session_state.get(f"q{i}", None)
+            if chosen is not None and chosen == pergunta["correct_value"]:
+                acertos += 1
+        percentual = (acertos / total) * 100 if total > 0 else 0.0
         st.markdown(f"<h3>🎯 Você acertou {acertos} de {total} ({percentual:.1f}%)</h3>", unsafe_allow_html=True)
 
-        # Atualiza nível Scolex
+        # Atualiza Scolex
         min_scolex = min([t["scolex_level"] for t in st.session_state.textos])
         if percentual >= 80:
             if st.session_state.ultimo_scolex_bom is None or texto["scolex_level"] > st.session_state.ultimo_scolex_bom:
@@ -297,14 +323,17 @@ def main():
         st.session_state.primeira_rodada = False
         st.session_state.respostas_enviadas = True
 
-    # ===== Botão manual para avançar para o próximo texto =====
+    # Botão para próximo texto
     if st.session_state.respostas_enviadas and not st.session_state.finalizado:
         if st.button("Próximo texto"):
-            st.session_state.pop("texto_atual")
-            st.session_state.respostas_enviadas = False
+            st.session_state.pop("texto_atual", None)
+            st.session_state.pop("shuffled_questions", None)
+            for k in list(st.session_state.keys()):
+                if k.startswith("q"):
+                    st.session_state.pop(k, None)
             st.rerun()
 
-    st.markdown('</div>', unsafe_allow_html=True)  # Fecha container teste-box
+    st.markdown('</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
